@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@font-face {
+  font-family: Eurostile;
+  src: url(/assets/fonts/eurostile-font/EuroStyleNormal.ttf);
+}
+*{ 
+  box-sizing: border-box; 
+  margin: 0; 
+  padding: 0;
+}
+body{
+  overflow-x: hidden;
+}
+$white: #FFFFFF;
+$white2: #00375C0D;
+$white3: #00000029;
+$gray: #00000029;
+
+.bg_trans{
+  background: transparent !important;
+}
+@import '/assets/sass/utilities/mixins';
+@import '/assets/sass/layout/nav&footer';
+@import '/assets/sass/pages/home';
+@import '/assets/sass/pages/contact';
+@import '/assets/sass/pages/blog';
+@import '/assets/sass/pages/blog-2';
+@import '/assets/sass/pages/about';
+@import '/assets/sass/pages/project';
+@import '/assets/sass/pages/services';
+.banner{
+  background: url(../images/banner.webp) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 540px;
+  @include flex(flex,center,row,center);
+  h1{
+    max-width: 1159px;
+    min-height: 51px;
+    text-align: center;
+    font: normal normal normal 60px/75px Eurostile;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+}
+.nopadding{
+  padding: 0px !important;
+}
+/*Full*/
+.dis-none-full{
+  display: none;
+}
+/*Phone*/
+@media (max-width: 425px){
+  .dis-none-425{
+    display: none;
+  }
+  .dis-play-425-foot-nav{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .banner{
+    background: url(../images/banner.webp) no-repeat center center; 
+    width: 100vw;
+    min-height: 101px;
+    @include flex(flex,center,row,center);
+    h1{
+      max-width: 1159px;
+      min-height: 10px;
+      text-align: center;
+      font: normal normal normal 22px/26px Eurostile;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+  }
+  .dis-425{
+    display: block;
+  }
+}

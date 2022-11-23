@@ -1,0 +1,138 @@
+.Project-page{
+  @include margin(5rem,0rem,5rem,0rem);
+  .container{
+    .project-container{
+      @include margin(5rem,0rem,5rem,0rem);
+      position: relative;
+      .project-image{
+        width: 100%;
+        max-width: 563px;
+      }
+      .project-head{
+        position: absolute;
+        z-index: 2;
+        top: 0;
+        left: 5%;
+        max-width: 406px;
+        min-height: 46px;
+        text-align: left;
+        font: normal normal bold 35px/100px Eurostile;
+        letter-spacing: 1.05px;
+        color: #FFFFFF;
+        text-shadow: 0px 3px 6px #00000029;
+        text-transform: uppercase;
+      }
+      .project-head2{
+        position: absolute;
+        z-index: 2;
+        top: 10%;
+        left: 5%;
+        max-width: 350px;
+        min-height: 78px;
+        text-align: left;
+        font: normal normal bold 35px/32px Eurostile;
+        letter-spacing: 1.05px;
+        color: #00375C;
+        text-shadow: 0px 3px 6px #00000029;
+        text-transform: uppercase;
+      }
+      h6{
+        position: absolute;
+        z-index: 2;
+        top: 65%;
+        left: 5%;
+        max-width: 330px;
+        min-height: 111px;
+        text-align: left;
+        font: normal normal medium 20px/30px Montserrat;
+        letter-spacing: 0.4px;
+        color: #00375C;
+      }
+      h5{
+        position: absolute;
+        z-index: 2;
+        top: 85%;
+        left: 5%;
+        max-width: 157px;
+        min-height: 36px;
+        text-align: left;
+        font: normal normal bold 28px/36px Eurostile;
+        letter-spacing: 0.56px;
+        color: #00375C;
+      }
+    }
+  }
+}
+.projects-mobile{
+  display: none;
+}
+.proj-arrow-mobile{
+  display: none;
+}
+/*Phone*/
+@media (max-width: 425px){
+.Proj-phone{
+  position: relative;
+  .projects-mobile{
+    @include margin(5rem,0rem,0rem,0rem);
+    display: block;
+    .items{
+      .proj-img-mobile{
+        width: 100%;
+        max-width: 450px;
+      }
+      .container{
+        @include margin(2rem,0rem,2rem,0rem);
+        h1{
+          max-width: 198px;
+          min-height: 24px;
+          text-align: left;
+          font: normal normal bold 18px/24px Eurostile;
+          letter-spacing: 0.36px;
+          color: #00375C;
+          text-transform: uppercase;
+        }
+        h6{
+          max-width: 286px;
+          min-height: 50px;
+          text-align: left;
+          font: normal normal medium 12px/20px Montserrat;
+          letter-spacing: 0.24px;
+          color: #00375C;
+        }
+        h5{
+          max-width: 101px;
+          min-height: 24px;
+          text-align: left;
+          font: normal normal bold 18px/24px Eurostile;
+          letter-spacing: 0.36px;
+          color: #00375C;
+        }
+      }
+    }
+  }
+  .proj-arrow-mobile{
+    @include flex(flex,center,row,center);
+    @include margin(0rem,0rem,3rem,0rem);
+    .arr_back-proj{
+      position: static;
+      color: #001E33;
+      font-size: 30px;
+      border: 1px solid #001E33;
+      border-radius: 50%;
+      @include padding(0px,13px,4px,13px);
+      @include margin(0px,10px,0px,0px);
+    }
+    .arr_next-proj{
+      position: static;
+      color: #001E33;
+      font-size: 30px;
+      border: 1px solid #001E33;
+      border-radius: 50%;
+      @include padding(0px,13px,4px,13px);
+      @include margin(0px,0px,0px,10px);
+
+    }
+  }
+}
+}

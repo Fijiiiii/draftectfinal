@@ -1,0 +1,21 @@
+.banner{
+  background: url(../images/banner.webp) no-repeat center center; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-height: 540px;
+  @include flex(flex,center,row,center);
+  h1{
+    max-width: 1159px;
+    min-height: 51px;
+    text-align: center;
+    font: normal normal normal 60px/75px Eurostile;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+}
+.bg_trans{
+  background: transparent !important;
+}

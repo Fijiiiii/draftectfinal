@@ -1,0 +1,91 @@
+.blog{
+  @include margin(10rem,0rem,10rem,0rem);
+  .container{
+    @include flex(flex,center,column,center);
+    .label{
+      @include flex(flex,center,column,center);
+      @include margin(0rem,0rem,5rem,0rem);
+      h1{
+        max-width: 818px;
+        min-height: 41px;
+        text-align: center;
+        font: normal normal bold 26px/34px Eurostile;
+        letter-spacing: 0.52px;
+        color: #00375C;
+        text-transform: uppercase;
+      }
+      h5{
+        max-width: 387px;
+        min-height: 32px;
+        text-align: center;
+        font: normal normal 600 20px/40px Montserrat;
+        letter-spacing: 0.4px;
+        color: #0099DC;
+      }
+    }
+    .blog-img{
+      width: 100%;
+      max-width: 1050px;
+      min-height: 648px;
+    }
+    .blog-par{
+      @include margin(5rem,0rem,0rem,0rem);
+      h6{
+        max-width: 1050px;
+        min-height: 56px;
+        text-align: left;
+        font: normal normal medium 18px/30px Montserrat;
+        letter-spacing: 0.36px;
+        color: #00375C;
+      }
+    }
+  }
+}
+
+@media (max-width: 425px){
+  .blog{
+    @include margin(10rem,0rem,10rem,0rem);
+    .container{
+      @include flex(flex,center,column,center);
+      .label{
+        @include flex(flex,center,column,center);
+        @include margin(0rem,0rem,5rem,0rem);
+        h1{
+          max-width: 818px;
+          min-height: 41px;
+          text-align: center;
+          font: normal normal bold 26px/34px Eurostile;
+          letter-spacing: 0.52px;
+          color: #00375C;
+          text-transform: uppercase;
+        }
+        h5{
+          max-width: 387px;
+          min-height: 32px;
+          text-align: center;
+          font: normal normal 600 20px/40px Montserrat;
+          letter-spacing: 0.4px;
+          color: #0099DC;
+        }
+      }
+      .blog-img{
+        width: 100%;
+        max-width: 1050px;
+        height: 100%;
+        min-height: 48px;
+        max-height: 500px
+      }
+      .blog-par{
+        @include margin(5rem,0rem,0rem,0rem);
+        h6{
+          max-width: 1050px;
+          min-height: 56px;
+          text-align: left;
+          font: normal normal medium 18px/30px Montserrat;
+          letter-spacing: 0.36px;
+          color: #00375C;
+        }
+      }
+    }
+  }
+  }

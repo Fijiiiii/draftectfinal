@@ -1,0 +1,540 @@
+.cont-nav{
+  background-color: white;
+  padding-top: 0rem!important;
+  .container{
+    a{
+      img{
+        max-width: 350px;
+        min-height: 10px;
+      }
+    }
+    .collapse{
+      ul{
+        li{
+          a{
+            font-size: 18px;
+            line-height: 22px;
+            font-family:Eurostile;
+            font-weight: normal;
+            letter-spacing: 1px;
+            color: #00375C !important;
+          }
+        }
+      }
+    }
+//trying
+  }
+}
+
+.contact{
+  .container{
+    .row{
+      @include margin(10rem,0rem,10rem,0rem);
+      .cont-details{
+        @include flex(flex,flex-start,column,flex-start);
+        h4{
+          @include margin(0rem,0rem,2rem,0rem);
+          max-width: 400px;
+          min-height: 73px;
+          text-align: left;
+          font: normal normal normal 60px/75px Eurostile;
+          letter-spacing: 0px;
+          color: #00375C;
+          text-transform: uppercase;
+        }
+        h5{
+          margin-bottom: 0px !important;
+          max-width: 350px;
+          min-height: 26px;
+          text-align: left;
+          font: normal normal bold 20px/30px Eurostile;
+          letter-spacing: 1px;
+          color: #00375C;
+        }
+        h6{
+          margin-bottom: 0px !important;
+          max-width: 400px;
+          min-height: 5px;
+          text-align: left;
+          font: normal normal bold 20px/30px Eurostile;
+          letter-spacing: 1px;
+          color: #00375C;
+        }
+        h3{
+          margin-bottom: 0px !important;
+          max-width: 300px;
+          min-height: 5px;
+          text-align: left;
+          font: normal normal 300 20px/30px Montserrat;
+          letter-spacing: 1px;
+          color: #00375C;
+        }
+      }
+      h5{
+        max-width: 161px;
+        min-height: 24px;
+        text-align: left;
+        font: normal normal normal 20px/24px Eurostile;
+        letter-spacing: 0.8px;
+        color: #00375C;
+        text-transform: uppercase;
+      }
+      form{
+        @include margin(0rem,5rem,0rem,0rem);
+        input{
+          @include margin(.5rem,0rem,.5rem,0rem);
+          width: 100%;
+          max-width: 691px;
+          height: 70px;
+          border: 2px solid #00375C;
+          border-radius: 50px;
+          text-align: left;
+          font: normal normal bold 18px/24px Montserrat;
+          letter-spacing: 0.9px;
+          color: #00375C;
+        }
+        textarea{
+          @include margin(.5rem,0rem,1rem,0rem);
+          width: 100%;
+          max-width: 691px;
+          height: 258px;
+          border: 2px solid #00375C;
+          border-radius: 30px;
+          text-align: left;
+          font: normal normal bold 18px/24px Montserrat;
+          letter-spacing: 0.9px;
+          color: #00375C;
+        }
+        button{
+          width: 100%;
+          max-width: 306px;
+          height: 70px;
+          background: transparent linear-gradient(312deg, #1A99DC 0%, #04375C 100%) 0% 0% no-repeat padding-box;
+          border-radius: 50px;
+          text-align: center;
+          font: normal normal bold 24px/31px Eurostile;
+          letter-spacing: 5px;
+          color: #FFFFFF;
+          text-transform: uppercase;
+          border: none;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 1024px){
+  .cont-nav{
+    background-color: transparent;
+    padding-top: 0rem!important;
+    .container{
+      a{
+        img{
+          max-width: 350px;
+          min-height: 10px;
+        }
+      }
+      .collapse{
+        ul{
+          li{
+            a{
+            color: #00375C !important;
+            font-size: 15px;
+            line-height: 12px;
+            font-family:Eurostile;
+            font-weight: normal;
+            letter-spacing: 0px;
+
+            }
+          }
+        }
+      }
+  //trying
+    }
+  }
+}
+@media (max-width: 768px){
+  /*N A V B A R*/
+  .navbar{
+    justify-content: end !important;
+  }
+  .cont-nav{
+    background-color: rgb(255, 255, 255) !important;
+    position: sticky !important;
+    height: 58px;
+    @include padding(0rem,0rem,0rem,0rem);
+    @include flex(flex,flex-end,row,flex-start);
+    .container{
+      @include margin(0rem,0rem,0rem,0rem);
+      padding-right: 0rem!important;
+      padding-left: 0rem!important;
+      justify-content: end !important;
+      a{
+        img{
+          @include margin(0rem,11rem,0rem,0rem);
+          max-width: 156px;
+          min-height: 10px;
+        }
+      }
+      .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        top: 100%;
+      }
+      button{
+        background-color: #0099DC !important;
+        border-radius: 0% !important;
+        min-height: 58px;
+        min-width: 80px;
+        max-width: 100px;
+        border: none;
+      }
+      .navbar-toggler:focus,
+      .navbar-toggler:active,
+      .navbar-toggler-icon:focus {
+          outline: none;
+          box-shadow: none;
+      }
+      .collapse{
+        background-color: rgb(255, 255, 255) !important;
+        ul{
+          li{
+            margin-right: 0rem!important;
+            a{
+              color: black !important;
+            }
+          }
+        }
+      }
+      .tryings{
+        background-color: #00375C !important;
+        min-height: 58px;
+        min-width: 80px;
+        max-width: 100px;
+        @include flex(flex,center,row,center);
+        span{
+          color: rgb(255, 255, 255) !important;
+          font-size: 30px;
+          
+        }
+      }
+    }
+  }
+}
+@media (max-width: 425px){
+  /*N A V B A R*/
+  .cont-nav{
+    background-color: transparent !important;
+    position: sticky !important;
+    height: 58px;
+    @include padding(0rem,0rem,0rem,0rem);
+    @include flex(flex,flex-start,row,flex-start);
+    .container{
+      @include margin(0rem,0rem,0rem,0rem);
+      padding-right: 0rem!important;
+      justify-content: end !important;
+      a{
+        img{
+          @include margin(0rem,4rem,0rem,0rem);
+          max-width: 156px;
+          min-height: 10px;
+        }
+      }
+      .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        top: 100%;
+      }
+      button{
+        background-color: #0099DC !important;
+        border-radius: 0% !important;
+        min-height: 58px;
+        min-width: 80px;
+        max-width: 100px;
+        border: none;
+      }
+      .navbar-toggler:focus,
+      .navbar-toggler:active,
+      .navbar-toggler-icon:focus {
+          outline: none;
+          box-shadow: none;
+      }
+      .collapse{
+        background-color: #0099DC !important;
+        ul{
+          li{
+            a{
+              color: black !important;
+            }
+          }
+        }
+      }
+      .tryings{
+        background-color: #00375C !important;
+        min-height: 58px;
+        min-width: 80px;
+        max-width: 100px;
+        @include flex(flex,center,row,center);
+        span{
+          color: rgb(255, 255, 255) !important;
+          font-size: 30px;
+          
+        }
+      }
+    }
+  }
+  .contact{
+    .container{
+      .row{
+        @include margin(10rem,0rem,10rem,0rem);
+        .cont-details{
+          @include flex(flex,flex-start,column,flex-start);
+          h4{
+            @include margin(0rem,0rem,1rem,0rem);
+            max-width: 400px;
+            min-height: 73px;
+            text-align: left;
+            font: normal normal normal 60px/75px Eurostile;
+            letter-spacing: 0px;
+            color: #00375C;
+            text-transform: uppercase;
+          }
+          h5{
+            margin-bottom: 0px !important;
+            max-width: 350px;
+            min-height: 26px;
+            text-align: left;
+            font: normal normal bold 20px/30px Eurostile;
+            letter-spacing: 1px;
+            color: #00375C;
+          }
+          h6{
+            margin-bottom: 0px !important;
+            max-width: 400px;
+            min-height: 5px;
+            text-align: left;
+            font: normal normal bold 20px/30px Eurostile;
+            letter-spacing: 1px;
+            color: #00375C;
+          }
+          h3{
+            margin-bottom: 0px !important;
+            max-width: 300px;
+            min-height: 5px;
+            text-align: left;
+            font: normal normal 300 20px/30px Montserrat;
+            letter-spacing: 1px;
+            color: #00375C;
+          }
+        }
+        h5{
+          max-width: 161px;
+          min-height: 24px;
+          text-align: left;
+          font: normal normal normal 20px/24px Eurostile;
+          letter-spacing: 0.8px;
+          color: #00375C;
+          text-transform: uppercase;
+        }
+        form{
+          @include margin(0rem,5rem,0rem,0rem);
+          input{
+            @include margin(.5rem,0rem,.5rem,0rem);
+            width: 100%;
+            max-width: 691px;
+            height: 70px;
+            border: 2px solid #00375C;
+            border-radius: 50px;
+            text-align: left;
+            font: normal normal bold 18px/24px Montserrat;
+            letter-spacing: 0.9px;
+            color: #00375C;
+          }
+          textarea{
+            @include margin(.5rem,0rem,1rem,0rem);
+            width: 100%;
+            max-width: 691px;
+            height: 258px;
+            border: 2px solid #00375C;
+            border-radius: 30px;
+            text-align: left;
+            font: normal normal bold 18px/24px Montserrat;
+            letter-spacing: 0.9px;
+            color: #00375C;
+          }
+          button{
+            width: 100%;
+            max-width: 306px;
+            height: 70px;
+            background: transparent linear-gradient(312deg, #1A99DC 0%, #04375C 100%) 0% 0% no-repeat padding-box;
+            border-radius: 50px;
+            text-align: center;
+            font: normal normal bold 24px/31px Eurostile;
+            letter-spacing: 5px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 375px){
+  /*N A V B A R*/
+  .cont-nav{
+    background-color: transparent !important;
+    position: sticky !important;
+    height: 58px;
+    @include padding(0rem,0rem,0rem,0rem);
+    @include flex(flex,flex-start,row,flex-start);
+    .container{
+      @include margin(0rem,0rem,0rem,0rem);
+      padding-right: 0rem!important;
+      justify-content: end !important;
+      a{
+        img{
+          @include margin(0rem,1rem,0rem,0rem);
+          max-width: 156px;
+          min-height: 10px;
+        }
+      }
+      .navbar-collapse {
+        position: absolute;
+        width: 100%;
+        top: 100%;
+      }
+      button{
+        background-color: #0099DC !important;
+        border-radius: 0% !important;
+        min-height: 58px;
+        min-width: 80px;
+        max-width: 100px;
+        border: none;
+      }
+      .navbar-toggler:focus,
+      .navbar-toggler:active,
+      .navbar-toggler-icon:focus {
+          outline: none;
+          box-shadow: none;
+      }
+      .collapse{
+        background-color: #0099DC !important;
+        ul{
+          li{
+            a{
+              color: black !important;
+            }
+          }
+        }
+      }
+      .tryings{
+        background-color: #00375C !important;
+        min-height: 58px;
+        min-width: 80px;
+        max-width: 100px;
+        @include flex(flex,center,row,center);
+        span{
+          color: rgb(255, 255, 255) !important;
+          font-size: 30px;
+          
+        }
+      }
+    }
+  }
+  .contact{
+    .container{
+      .row{
+        @include margin(10rem,0rem,10rem,0rem);
+        .cont-details{
+          @include flex(flex,flex-start,column,flex-start);
+          h4{
+            @include margin(0rem,0rem,1rem,0rem);
+            max-width: 400px;
+            min-height: 73px;
+            text-align: left;
+            font: normal normal normal 60px/75px Eurostile;
+            letter-spacing: 0px;
+            color: #00375C;
+            text-transform: uppercase;
+          }
+          h5{
+            margin-bottom: 0px !important;
+            max-width: 350px;
+            min-height: 26px;
+            text-align: left;
+            font: normal normal bold 20px/30px Eurostile;
+            letter-spacing: 1px;
+            color: #00375C;
+          }
+          h6{
+            margin-bottom: 0px !important;
+            max-width: 400px;
+            min-height: 5px;
+            text-align: left;
+            font: normal normal bold 20px/30px Eurostile;
+            letter-spacing: 1px;
+            color: #00375C;
+          }
+          h3{
+            margin-bottom: 0px !important;
+            max-width: 300px;
+            min-height: 5px;
+            text-align: left;
+            font: normal normal 300 20px/30px Montserrat;
+            letter-spacing: 1px;
+            color: #00375C;
+          }
+        }
+        h5{
+          max-width: 161px;
+          min-height: 24px;
+          text-align: left;
+          font: normal normal normal 20px/24px Eurostile;
+          letter-spacing: 0.8px;
+          color: #00375C;
+          text-transform: uppercase;
+        }
+        form{
+          @include margin(0rem,5rem,0rem,0rem);
+          input{
+            @include margin(.5rem,0rem,.5rem,0rem);
+            width: 100%;
+            max-width: 691px;
+            height: 70px;
+            border: 2px solid #00375C;
+            border-radius: 50px;
+            text-align: left;
+            font: normal normal bold 18px/24px Montserrat;
+            letter-spacing: 0.9px;
+            color: #00375C;
+          }
+          textarea{
+            @include margin(.5rem,0rem,1rem,0rem);
+            width: 100%;
+            max-width: 691px;
+            height: 258px;
+            border: 2px solid #00375C;
+            border-radius: 30px;
+            text-align: left;
+            font: normal normal bold 18px/24px Montserrat;
+            letter-spacing: 0.9px;
+            color: #00375C;
+          }
+          button{
+            width: 100%;
+            max-width: 306px;
+            height: 70px;
+            background: transparent linear-gradient(312deg, #1A99DC 0%, #04375C 100%) 0% 0% no-repeat padding-box;
+            border-radius: 50px;
+            text-align: center;
+            font: normal normal bold 24px/31px Eurostile;
+            letter-spacing: 5px;
+            color: #FFFFFF;
+            text-transform: uppercase;
+            border: none;
+          }
+        }
+      }
+    }
+  }
+}

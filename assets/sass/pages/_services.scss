@@ -1,0 +1,376 @@
+.services-header{
+  /* The image used */
+  background-image: url("../images/Service-header.webp");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h1{
+    max-width: 1024px;
+    min-height: 34px;
+    text-align: center;
+    font: normal normal normal 60px/75px Eurostile;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+}
+.services-main{
+  background: #00375C0D 0% 0% no-repeat padding-box;
+  .container{
+    @include padding(5rem,0rem,5rem,0rem);
+    .latest-news{
+      @include flex(flex,center,row,center);
+      @include padding(0rem,0rem,5rem,0rem);
+      h1{
+        max-width: 925px;
+        min-height: 73px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 60px;
+        font-family:Eurostile;
+        font-weight: bold;
+        letter-spacing: 0px;
+        color: #00375C;
+        text-transform: uppercase;
+      }
+    }
+    .news{
+      h2{
+        width: 100%;
+        max-width: 450px;
+        min-height: 103px;
+        font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-26)/var(--unnamed-line-spacing-34) var(--unnamed-font-family-eurostile);
+        letter-spacing: var(--unnamed-character-spacing-0-52);
+        color: var(--unnamed-color-00375c);
+        text-align: left;
+        font-size: 26px;
+        line-height: 34px;
+        font-family: Eurostile;
+        font-weight: bold;
+        letter-spacing: 0.52px;
+        color: #00375C;
+        text-transform: uppercase;
+      }
+      h3{
+        max-width: 387px;
+        min-height: 10px;
+        font: var(--unnamed-font-style-normal) normal 600 var(--unnamed-font-size-20)/var(--unnamed-line-spacing-40) var(--unnamed-font-family-montserrat);
+        letter-spacing: var(--unnamed-character-spacing-0-4);
+        color: var(--unnamed-color-0099dc);
+        text-align: left;
+        font-size: 20px;
+        line-height: 10px;
+        font-family: Montserrat;
+        font-weight:900;
+        letter-spacing: 0.4px;
+        color: #0099DC;
+      }
+      .service-img{
+        width: 100%;
+        height: 100%;
+        @include margin(.5rem,0rem,.5rem,0rem);
+      }
+      h6{
+        max-width: 413px;
+        min-height: 150px;
+        text-align: left;
+        font-size: 18px;
+        line-height: 30px;
+        font-family:Montserrat;
+        font-weight: bold;
+        letter-spacing: 0.36px;
+        color: #00375C;
+      }
+      h5{
+        width: 123px;
+        height: 29px;
+        text-align: left;
+        font-size: 22px;
+        line-height: 20px;
+        font-family:Eurostile;
+        font-weight: bold;
+        letter-spacing: 0.44px;
+        color: #00375C;
+      }
+    }
+    button{
+      @include margin(3rem,0rem,5rem,0rem);
+      width: 306px;
+      min-height: 70px;
+      background: transparent linear-gradient(312deg, #1A99DC 0%, #04375C 100%) 0% 0% no-repeat padding-box;
+      border-radius: 50px;
+      border: none;
+      text-align: center;
+      font: normal normal bold 24px/5px Eurostile;
+      letter-spacing: 3px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.BIM{
+  @include margin(10rem,0rem,10rem,0rem);
+  .container{
+    padding: 0px !important;
+    .info-serv{
+      @include flex(flex,center,column,center);
+      @include margin(10rem,0rem,0rem,0rem);
+      h1{
+        max-width: 600px;
+        min-height: 45px;
+        text-align: left;
+        font: normal normal bold 26px/34px Eurostile;
+        letter-spacing: 0.52px;
+        color: #00375C;
+        text-transform: uppercase;
+      }
+      h6{
+        max-width: 400px;
+        min-height: 50px;
+        text-align: left;
+        font: normal normal medium 18px/40px Montserrat;
+        letter-spacing: 0.36px;
+        color: #00375C;
+        line-height: 1.8;
+      }
+    }
+    .BIM-img{
+      width: 100%;
+      max-width: 826px;
+    }
+  }
+}
+
+@media (max-width: 991px){
+  .order0{
+    order: 0;
+  }
+  .order1{
+    order: 1;
+  }
+  .order2{
+    order: 2;
+  }
+  .order3{
+    order: 3;
+  }
+  .order4{
+    order: 4;
+  }
+  .order5{
+    order: 5;
+  }
+  .BIM{
+    @include margin(5rem,0rem,5rem,0rem);
+    .container{
+      padding: 0px !important;
+      .info-serv{
+        @include flex(flex,center,column,center);
+        @include margin(5rem,0rem,5rem,0rem);
+        h1{
+          max-width: 600px;
+          min-height: 45px;
+          text-align: left;
+          font: normal normal bold 26px/34px Eurostile;
+          letter-spacing: 0.52px;
+          color: #00375C;
+          text-transform: uppercase;
+        }
+        h6{
+          max-width: 400px;
+          min-height: 50px;
+          text-align: left;
+          font: normal normal medium 18px/40px Montserrat;
+          letter-spacing: 0.36px;
+          color: #00375C;
+          line-height: 1.8;
+        }
+      }
+      .BIM-img{
+        width: 100%;
+        max-width: 826px;
+      }
+    }
+  }
+
+}
+@media (max-width: 425px){
+  .BIM{
+    @include margin(2rem,0rem,5rem,0rem);
+    .container{
+      padding: 1rem !important;
+      .info-serv{
+        @include flex(flex,center,column,center);
+        @include margin(2rem,1rem,2rem,1rem);
+        h1{
+          width: 100%;
+          max-width: 400px;
+          min-height: 45px;
+          text-align: left;
+          font: normal normal bold 26px/34px Eurostile;
+          letter-spacing: 0.52px;
+          color: #00375C;
+          text-transform: uppercase;
+        }
+        h6{
+          max-width: 400px;
+          min-height: 50px;
+          text-align: left;
+          font: normal normal medium 18px/40px Montserrat;
+          letter-spacing: 0.36px;
+          color: #00375C;
+          line-height: 1.8;
+        }
+      }
+      .BIM-img{
+        width: 100%;
+        max-width: 826px;
+      }
+    }
+  }
+  .services-header{
+    /* The image used */
+    background-image: url("../images/Service-header.webp");
+    height: 50vh !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include flex(flex,center,row,center);
+    h1{
+      margin: 0px !important;
+      margin-top: 4rem!important;
+      max-width: 1024px;
+      min-height: 24px;
+      text-align: center;
+      font: normal normal normal 22px/26px Eurostile;
+      letter-spacing: 0px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+  }
+  .serv-2-phone{
+    background: #00375C0D 0% 0% no-repeat padding-box;
+    .latest-news{
+      @include flex(flex,center,row,center);
+      @include padding(5rem,0rem,1rem,0rem);
+      h1{
+        max-width: 925px;
+        min-height: 73px;
+        text-align: center;
+        line-height: 26px;
+        font-size: 22px;
+        font-family:Eurostile;
+        font-weight: bold;
+        letter-spacing: 0px;
+        color: #00375C;
+        text-transform: uppercase;
+      }
+    }
+    .projects-mobile{
+      @include margin(1rem,0rem,0rem,0rem);
+      display: block;
+      .items{
+        .container{
+          .serv-2-container{
+            @include margin(1rem,0rem,5rem,0rem);
+            .news{
+              h2{
+                width: 100%;
+                max-width: 450px;
+                min-height: 20px;
+                font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-26)/var(--unnamed-line-spacing-34) var(--unnamed-font-family-eurostile);
+                letter-spacing: var(--unnamed-character-spacing-0-52);
+                color: var(--unnamed-color-00375c);
+                text-align: left;
+                font-size: 18px;
+                line-height: 24px;
+                font-family: Eurostile;
+                font-weight: bold;
+                letter-spacing: 0.52px;
+                color: #00375C;
+                text-transform: uppercase;
+              }
+              h3{
+                max-width: 387px;
+                min-height: 20px;
+                font: var(--unnamed-font-style-normal) normal 600 var(--unnamed-font-size-20)/var(--unnamed-line-spacing-40) var(--unnamed-font-family-montserrat);
+                letter-spacing: var(--unnamed-character-spacing-0-4);
+                color: var(--unnamed-color-0099dc);
+                text-align: left;
+                font-size: 12px;
+                line-height: 40px;
+                font-family: Montserrat;
+                font-weight:900;
+                letter-spacing: 0.4px;
+                color: #0099DC;
+              }
+              .service-img{
+                width: 100%;
+                height: 100%;
+              }
+              h6{
+                max-width: 413px;
+                min-height: 20px;
+                text-align: left;
+                font-size: 12px;
+                line-height: 20px;
+                font-family:Montserrat;
+                font-weight: bold;
+                letter-spacing: 0.36px;
+                color: #00375C;
+              }
+              h5{
+                width: 123px;
+                height: 29px;
+                text-align: left;
+                font-size: 18px;
+                line-height: 24px;
+                font-family:Eurostile;
+                font-weight: bold;
+                letter-spacing: 0.44px;
+                color: #00375C;
+              }
+            }
+          }
+        }
+      }
+    }
+    .proj-arrow-mobile{
+      @include flex(flex,center,row,center);
+      @include padding(0rem,0rem,3rem,0rem);
+      .arr_back-proj{
+        position: static;
+        color: #001E33;
+        font-size: 30px;
+        border: 1px solid #001E33;
+        border-radius: 50%;
+        @include padding(0px,13px,4px,13px);
+        @include margin(0px,10px,0px,0px);
+      }
+      .arr_next-proj{
+        position: static;
+        color: #001E33;
+        font-size: 30px;
+        border: 1px solid #001E33;
+        border-radius: 50%;
+        @include padding(0px,13px,4px,13px);
+        @include margin(0px,0px,0px,10px);
+  
+      }
+    }
+    .news-button{
+      width: 232px;
+      height: 54px;
+      background: transparent linear-gradient(312deg, #1A99DC 0%, #04375C 100%) 0% 0% no-repeat padding-box;
+      border-radius: 50px;
+      border: none;
+      text-align: center;
+      font: normal normal bold 18px/24px Eurostile;
+      letter-spacing: 0.36px;
+      color: #FFFFFF;
+      text-transform: uppercase;
+    }
+  }
+}

@@ -1,0 +1,169 @@
+.blog-2-page{
+  @include margin(5rem,0rem,5rem,0rem);
+  .container{
+    .blog-2-container{
+      @include margin(5rem,0rem,5rem,0rem);
+      .container{
+        padding: 0px !important;
+        margin: 0px !important;
+        h1{
+          padding: 0px !important;
+          margin: 0px !important;
+          max-width: 275px;
+          text-align: left;
+          font-size: 26px;
+          line-height: 34px;
+          font-family: Eurostile;
+          font-weight: bold;
+          letter-spacing: 0.52px;
+          color: #00375C !important;
+          text-transform: uppercase;
+        }
+        h4{
+          padding: 0px !important;
+          margin: 0px !important;
+          width: 387px;
+          text-align: left;
+          font-size: 15px;
+          line-height: 40px;
+          font-family:Montserrat;
+          font-weight: bold;
+          letter-spacing: 0.4px;
+          color: #0099DC;
+        }
+      }
+      .article{
+        width: 100%;
+        max-width: 413px;
+        height: 313px;
+        background: #0099DC14 0% 0% no-repeat padding-box;
+      }
+      h5{
+        width: 100% !important;
+        max-width: 400px !important;
+        min-height: 13px;
+        text-align: left;
+        line-height: 30px;
+        font-size: 15px;
+        font-family:Montserrat;
+        font-weight: bold;
+        letter-spacing: 0.36px;
+        color: #00375C;
+      }
+      h6{
+        width: 123px;
+        height: 29px;
+        text-align: left;
+        font-size: 22px;
+        line-height: 20px;
+        font-family:Eurostile;
+        font-weight: bold;
+        letter-spacing: 0.44px;
+        color: #00375C;
+      }
+    }
+  }
+}
+.blog-2-mobile{
+  display: none;
+}
+.proj-arrow-mobile{
+  display: none;
+}
+/*Phone*/
+@media (max-width: 425px){
+.blog-2-phone{
+  .projects-mobile{
+    @include margin(5rem,0rem,0rem,0rem);
+    display: block;
+    .items{
+      .container{
+        .blog-2-container{
+          @include margin(5rem,0rem,0rem,0rem);
+          .container{
+            padding: 0px !important;
+            margin: 0px !important;
+            h1{
+              padding: 0px !important;
+              margin: 0px !important;
+              max-width: 275px;
+              text-align: left;
+              font-size: 26px;
+              line-height: 14px;
+              font-family: Eurostile;
+              font-weight: bold;
+              letter-spacing: 0.52px;
+              color: #00375C !important;
+              text-transform: uppercase;
+            }
+            h4{
+              padding: 0px !important;
+              margin: 0px !important;
+              width: 387px;
+              text-align: left;
+              font-size: 15px;
+              line-height: 40px;
+              font-family:Montserrat;
+              font-weight: bolder;
+              letter-spacing: 0.4px;
+              color: #0099DC;
+            }
+          }
+          .article{
+            width: 100%;
+            max-width: 413px;
+            height: 313px;
+            background: #0099DC14 0% 0% no-repeat padding-box;
+          }
+          h5{
+            width: 100% !important;
+            max-width: 400px !important;
+            min-height: 13px;
+            text-align: left;
+            line-height: 20px;
+            font-size: 12px;
+            font-family:Montserrat;
+            font-weight: bold;
+            letter-spacing: 0.36px;
+            color: #00375C;
+          }
+          h6{
+            width: 123px;
+            height: 29px;
+            text-align: left;
+            font-size: 22px;
+            line-height: 20px;
+            font-family:Eurostile;
+            font-weight: bold;
+            letter-spacing: 0.44px;
+            color: #00375C;
+          }
+        }
+      }
+    }
+  }
+  .proj-arrow-mobile{
+    @include flex(flex,center,row,center);
+    @include margin(0rem,0rem,3rem,0rem);
+    .arr_back-proj{
+      position: static;
+      color: #001E33;
+      font-size: 30px;
+      border: 1px solid #001E33;
+      border-radius: 50%;
+      @include padding(0px,13px,4px,13px);
+      @include margin(0px,10px,0px,0px);
+    }
+    .arr_next-proj{
+      position: static;
+      color: #001E33;
+      font-size: 30px;
+      border: 1px solid #001E33;
+      border-radius: 50%;
+      @include padding(0px,13px,4px,13px);
+      @include margin(0px,0px,0px,10px);
+
+    }
+  }
+}
+}
