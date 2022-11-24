@@ -1492,7 +1492,7 @@ footer{
           background-image: url('../images/logo-white.svg');
           background-repeat: no-repeat;
           background-position: center;
-          background-size: 180px 70px;
+          background-size: 150px 50px;
           width: 200px;
           height: 100px;
         }
@@ -1504,12 +1504,12 @@ footer{
       }
       button{
         background-color: #0099DC;
-        @include padding(2.5rem,1rem,2.5rem,1rem);
+        @include padding(1.5rem,1rem,1.5rem,1rem);
         border: none;
         border-radius: 0% !important;
         span{
           color: white;
-          font-size: 40px;
+          font-size: 30px;
           font-weight: normal;
         }
       }
@@ -1592,20 +1592,21 @@ footer{
     //trying
         .nav-link{
           background-color: #04375C;
-          @include padding(.6rem,.5rem,.6rem,.5rem);
+          @include padding(.3rem,.5rem,.3rem,.5rem);
           .tryings{
             background: url('../images/search-white.svg') no-repeat center center;
             background-repeat: no-repeat;
             background-position: center;
             background-size: 30px;
-            width: 50px;
-            height: 100px;
+            width: 30px;
+            height: 30px;
           }
         }
       }
     }
   }
   .navi{
+    height: 5rem;
     padding-bottom: 0px !important;
     background-color: black;
     padding-top: 0rem!important;
@@ -1618,7 +1619,7 @@ footer{
           background-image: url('../images/logo-white.svg');
           background-repeat: no-repeat;
           background-position: center;
-          background-size: 180px 70px;
+          background-size: 150px 50px;
           width: 200px;
           height: 100px;
         }
@@ -1630,12 +1631,12 @@ footer{
       }
       button{
         background-color: #0099DC;
-        @include padding(2.5rem,1rem,2.5rem,1rem);
+        @include padding(1.5rem,1rem,1.5rem,1rem);
         border: none;
         border-radius: 0% !important;
         span{
           color: white;
-          font-size: 40px;
+          font-size: 30px;
           font-weight: normal;
         }
       }
@@ -1718,14 +1719,14 @@ footer{
     //trying
         .nav-link{
           background-color: #04375C;
-          @include padding(.6rem,.5rem,.6rem,.5rem);
+          @include padding(.3rem,.5rem,.3rem,.5rem);
           .tryings{
             background: url('../images/search-white.svg') no-repeat center center;
             background-repeat: no-repeat;
             background-position: center;
             background-size: 30px;
-            width: 50px;
-            height: 100px;
+            width: 30px;
+            height: 30px;
           }
         }
       }
