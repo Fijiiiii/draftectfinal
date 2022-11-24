@@ -109,7 +109,7 @@ $(function(){
         settings: {
           prevArrow:'.arr_back-proj',
           nextArrow:'.arr_next-proj',
-          arrows: false,
+          arrows: true,
           dots:false,
           centerMode: true,
           vertical:false,
