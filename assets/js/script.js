@@ -112,6 +112,7 @@ $(function(){
           arrows: false,
           dots:false,
           centerMode: true,
+          vertical:false,
           centerPadding: '0px',
           slidesToShow: 1,
         }
