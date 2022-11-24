@@ -72,7 +72,7 @@ $gray: #00000029;
 }
 /*Full*/
 .dis-none-full{
-  display: none;
+  display: none !important;
 }
 /*Phone*/
 @media (max-width: 425px){
@@ -82,6 +82,9 @@ $gray: #00000029;
   .dis-play-425-foot-nav{
     display: flex;
     flex-direction: column;
+  }
+  .dis-425{
+    display: flex !important;
   }
 
   .banner{

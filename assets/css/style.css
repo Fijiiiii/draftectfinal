@@ -4346,6 +4346,12 @@ header .text h6 {
   margin-bottom: 5rem;
   margin-left: 0rem;
 }
+.blog-2-page .container .slicky {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+}
 .blog-2-page .container .blog-2-container {
   margin-top: 5rem;
   margin-right: 0rem;
@@ -4409,6 +4415,46 @@ header .text h6 {
   font-weight: bold;
   letter-spacing: 0.44px;
   color: #00375C;
+}
+.blog-2-page .proj-arrow-mobile {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 0rem;
+  margin-right: 0rem;
+  margin-bottom: 3rem;
+  margin-left: 0rem;
+}
+.blog-2-page .proj-arrow-mobile .arr_back-proj {
+  position: static;
+  color: #001E33;
+  font-size: 30px;
+  border: 1px solid #001E33;
+  border-radius: 50%;
+  padding-top: 0px;
+  padding-right: 13px;
+  padding-bottom: 4px;
+  padding-left: 13px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.blog-2-page .proj-arrow-mobile .arr_next-proj {
+  position: static;
+  color: #001E33;
+  font-size: 30px;
+  border: 1px solid #001E33;
+  border-radius: 50%;
+  padding-top: 0px;
+  padding-right: 13px;
+  padding-bottom: 4px;
+  padding-left: 13px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 10px;
 }
 
 .blog-2-mobile {
@@ -5298,7 +5344,7 @@ header .text h6 {
 
 /*Full*/
 .dis-none-full {
-  display: none;
+  display: none !important;
 }
 
 /*Phone*/
@@ -5309,6 +5355,9 @@ header .text h6 {
   .dis-play-425-foot-nav {
     display: flex;
     flex-direction: column;
+  }
+  .dis-425 {
+    display: flex !important;
   }
   .banner {
     background: url(../images/banner.webp) no-repeat center center;

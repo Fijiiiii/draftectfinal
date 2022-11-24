@@ -75,6 +75,52 @@ $(function(){
 }
 );
 
+
+
+
+
+$(function(){
+  $('.blog-mobile').slick({
+    prevArrow:'.arr_back-proj',
+    nextArrow:'.arr_next-proj',
+    arrows: true,
+    dots:false,
+    centerMode: true,
+    centerPadding: '0px',
+    vertical: true,
+    slidesToShow: 2,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          prevArrow:'.arr_back-proj',
+          nextArrow:'.arr_next-proj',
+          arrows: true,
+          dots:false,
+          vertical:false,
+          centerMode: true,
+          centerPadding: '0px',
+          slidesToShow: 1,
+          
+        }
+      },
+      {
+        breakpoint: 425,
+        settings: {
+          prevArrow:'.arr_back-proj',
+          nextArrow:'.arr_next-proj',
+          arrows: false,
+          dots:false,
+          centerMode: true,
+          centerPadding: '0px',
+          slidesToShow: 1,
+        }
+      },
+    ],
+  });
+}
+);
+
 /*window.addEventListener("scroll", function(){
   const nav = document.querySelector("nav");
   nav.classList.toggle("stix", window.scrollY > 500);

@@ -1,6 +1,9 @@
 .blog-2-page{
   @include margin(5rem,0rem,5rem,0rem);
   .container{
+    .slicky{
+      @include flex(flex,center,row,center);
+    }
     .blog-2-container{
       @include margin(5rem,0rem,5rem,0rem);
       .container{
@@ -61,6 +64,29 @@
         letter-spacing: 0.44px;
         color: #00375C;
       }
+    }
+  }
+  .proj-arrow-mobile{
+    @include flex(flex,center,row,center);
+    @include margin(0rem,0rem,3rem,0rem);
+    .arr_back-proj{
+      position: static;
+      color: #001E33;
+      font-size: 30px;
+      border: 1px solid #001E33;
+      border-radius: 50%;
+      @include padding(0px,13px,4px,13px);
+      @include margin(0px,10px,0px,0px);
+    }
+    .arr_next-proj{
+      position: static;
+      color: #001E33;
+      font-size: 30px;
+      border: 1px solid #001E33;
+      border-radius: 50%;
+      @include padding(0px,13px,4px,13px);
+      @include margin(0px,0px,0px,10px);
+
     }
   }
 }
