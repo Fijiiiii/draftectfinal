@@ -2778,6 +2778,11 @@ header .text h6 {
     transition: all linear 0.6s;
     opacity: 80%;
   }
+  .proj-cont .container .projects .slick-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .proj-cont .container .projects .slick-center h1 {
     position: absolute;
     transform: none;
