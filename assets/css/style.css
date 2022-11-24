@@ -1610,13 +1610,16 @@ footer .row .third-foot .foot-social img {
     flex-direction: row;
     align-items: center;
   }
+  nav .container a {
+    padding-top: 0px !important;
+  }
   nav .container a .logo-navi {
     background-image: url("../images/logo-white.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150px 50px;
-    width: 200px;
-    height: 100px;
+    max-width: 200px;
+    height: 50px;
   }
   nav .container .navbar-collapse {
     position: absolute;
@@ -1626,9 +1629,9 @@ footer .row .third-foot .foot-social img {
   nav .container button {
     background-color: #0099DC;
     padding-top: 1.5rem;
-    padding-right: 1rem;
+    padding-right: 2rem;
     padding-bottom: 1.5rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
     border: none;
     border-radius: 0% !important;
   }
@@ -1722,12 +1725,12 @@ footer .row .third-foot .foot-social img {
   }
   nav .container .nav-content .nav-link {
     background-color: #04375C;
-    padding-top: 0.3rem;
-    padding-right: 0.5rem;
-    padding-bottom: 0.3rem;
-    padding-left: 0.5rem;
   }
   nav .container .nav-content .nav-link .tryings {
+    padding-top: 2.2rem;
+    padding-right: 2rem;
+    padding-bottom: 2.2rem;
+    padding-left: 2rem;
     background: url("../images/search-white.svg") no-repeat center center;
     background-repeat: no-repeat;
     background-position: center;
@@ -1749,13 +1752,16 @@ footer .row .third-foot .foot-social img {
     flex-direction: row;
     align-items: center;
   }
+  .navi .container a {
+    padding-top: 0px !important;
+  }
   .navi .container a .logo-navi {
     background-image: url("../images/logo-white.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 150px 50px;
-    width: 200px;
-    height: 100px;
+    max-width: 200px;
+    height: 50px;
   }
   .navi .container .navbar-collapse {
     position: absolute;
@@ -1764,10 +1770,10 @@ footer .row .third-foot .foot-social img {
   }
   .navi .container button {
     background-color: #0099DC;
-    padding-top: 1.5rem;
-    padding-right: 1rem;
+    padding-top: 1.5rem !important;
+    padding-right: 2rem;
     padding-bottom: 1.5rem;
-    padding-left: 1rem;
+    padding-left: 2rem;
     border: none;
     border-radius: 0% !important;
   }
@@ -1861,12 +1867,12 @@ footer .row .third-foot .foot-social img {
   }
   .navi .container .nav-content .nav-link {
     background-color: #04375C;
-    padding-top: 0.3rem;
-    padding-right: 0.5rem;
-    padding-bottom: 0.3rem;
-    padding-left: 0.5rem;
   }
   .navi .container .nav-content .nav-link .tryings {
+    padding-top: 2.2rem;
+    padding-right: 2rem;
+    padding-bottom: 2.2rem;
+    padding-left: 2rem;
     background: url("../images/search-white.svg") no-repeat center center;
     background-repeat: no-repeat;
     background-position: center;
@@ -1879,13 +1885,21 @@ footer .row .third-foot .foot-social img {
     padding-top: 0rem !important;
     box-shadow: 1px 1px 50px gray;
   }
+  .stix .container {
+    padding: 0px !important;
+    margin-right: 0px !important;
+    display: flex;
+    justify-content: space-between !important;
+    flex-direction: row;
+    align-items: center;
+  }
   .stix .container a .logo-navi {
     background-image: url("../images/logo-blue.svg");
     background-repeat: no-repeat;
     background-position: center;
-    background-size: 180px 70px;
-    width: 200px;
-    height: 100px;
+    background-size: 150px 50px;
+    max-width: 200px;
+    height: 50px;
   }
   .stix .container button span {
     color: white;
@@ -1962,18 +1976,18 @@ footer .row .third-foot .foot-social img {
   }
   .stix .container .nav-content .nav-link {
     background-color: #04375C;
-    padding-top: 0.6rem;
-    padding-right: 0.5rem;
-    padding-bottom: 0.6rem;
-    padding-left: 0.5rem;
   }
   .stix .container .nav-content .nav-link .tryings {
+    padding-top: 2.2rem;
+    padding-right: 2rem;
+    padding-bottom: 2.2rem;
+    padding-left: 2rem;
     background: url("../images/search-white.svg") no-repeat center center;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 30px;
     width: 50px;
-    height: 100px;
+    height: 50px;
   }
 }
 @media (max-width: 425px) {
