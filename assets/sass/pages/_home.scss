@@ -136,27 +136,26 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 70%;
     .items{
       display: flex;
       align-items: center;
       justify-content: center;
-      width: 500px;
       min-height: 500px;
       position: relative;
       margin: 0px !important;
       padding-left: 0px !important;
       .proj-img{
         width: 100%;
-        max-width: 390px;
-        min-height: 390px;
+        max-width: 350px;
+        min-height: 350px;
         transition: all linear .6s;
         margin: 0px !important;
         
       }
       h1{
         position: absolute;
-        top: 75%;
+        top: 70%;
         left: 10%;
         max-width: 286px;
         min-height: 32px;
@@ -169,48 +168,21 @@ header{
         transition: all linear .6s;
       }
       .overlay{
-        top: 11%;
+        top: 15%;
         left: 10;
         position: absolute;
         width: 100%;
-        max-width: 390px;
-        min-height: 390px;
+        max-width: 350px;
+        min-height: 350px;
         background-color: $white;
         transition: all linear .6s;
         opacity: 80%;
       }
     }
     .slick-center{
-      .proj-img{
-        transform: scale(1.2);
-        opacity: 100% !important;
-        position: absolute;
-        z-index: 23;
-        padding: 0px !important;
-        margin: 0px !important;
-      }
-      h1{
-        position: absolute;
-        transform: scale(1.2);
-        z-index: 25;
-        top: 75%;
-        left: 10%;
-        max-width: 286px;
-        min-height: 32px;
-        text-align: left;
-        font: normal normal bold 25px/100px Eurostile;
-        letter-spacing: 0.75px;
-        color: #FFFFFF;
-        text-shadow: 0px 3px 6px #ff000029;
-        text-transform: uppercase;
-      }
-      .overlay{
-        transform: scale(2);
-        opacity: 0;
-      }
       a{
         .proj-img{
-          top: 10%;
+          top: 15%;
           left: 5%;
           position: absolute;
           transform: scale(1.2);
@@ -248,6 +220,7 @@ header{
     left: 0%;
     color: #001E33;
     font-size: 30px;
+    
   }
   .arr_next{
     position: absolute;
