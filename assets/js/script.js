@@ -122,6 +122,47 @@ $(function(){
 }
 );
 
+/*NEWS*/
+$(function(){
+  $('.news-items').slick({
+    prevArrow:'.arr_back-proj',
+    nextArrow:'.arr_next-proj',
+    arrows: true,
+    dots:false,
+    centerMode: true,
+    centerPadding: '30px',
+    slidesToShow: 4,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          prevArrow:'.arr_back-proj',
+          nextArrow:'.arr_next-proj',
+          arrows: true,
+          dots:false,
+          centerMode: true,
+          centerPadding: '0px',
+          slidesToShow: 1,
+          
+        }
+      },
+      {
+        breakpoint: 425,
+        settings: {
+          prevArrow:'.arr_back-proj',
+          nextArrow:'.arr_next-proj',
+          arrows: true,
+          dots:false,
+          centerMode: true,
+          centerPadding: '0px',
+          slidesToShow: 1,
+        }
+      },
+    ],
+  });
+}
+);
+
 /*window.addEventListener("scroll", function(){
   const nav = document.querySelector("nav");
   nav.classList.toggle("stix", window.scrollY > 500);
