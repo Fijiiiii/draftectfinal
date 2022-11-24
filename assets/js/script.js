@@ -32,6 +32,8 @@ $(function(){
   });
 }
 );
+
+
 //Home-Project page
 $(function(){
   $('.projects').slick({
@@ -75,10 +77,7 @@ $(function(){
 }
 );
 
-
-
-
-
+/*BLOG*/
 $(function(){
   $('.blog-mobile').slick({
     prevArrow:'.arr_back-proj',
