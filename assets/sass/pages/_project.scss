@@ -76,20 +76,20 @@
   @include margin(0rem,0rem,3rem,0rem);
   .arr_back-proj{
     position: static;
-    color: #001E33;
-    font-size: 30px;
+    height: 50px;
+    width: 50px;
     border: 1px solid #001E33;
     border-radius: 50%;
-    @include padding(0px,13px,4px,13px);
-    @include margin(0px,10px,0px,0px);
+    @include padding(9px,0px,1px,8px);
+    @include margin(0px,0px,0px,10px);
   }
   .arr_next-proj{
     position: static;
-    color: #001E33;
-    font-size: 30px;
+    height: 50px;
+    width: 50px;
     border: 1px solid #001E33;
     border-radius: 50%;
-    @include padding(0px,13px,4px,13px);
+    @include padding(9px,0px,1px,8px);
     @include margin(0px,0px,0px,10px);
 
   }

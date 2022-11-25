@@ -81,4 +81,48 @@ $gray: #00000029;
   .dis-425{
     display: block;
   }
+  .proj-arrow{
+    @include flex(flex,center,row,center);
+    .arr_back{
+      position: static;
+      height: 55px;
+      width: 55px;
+      border: 1px solid #001E33;
+      border-radius: 50%;
+      @include padding(0px,0px,0px,10px);
+    }
+    .arr_next{
+      position: static;
+      height: 55px;
+      width: 55px;
+      border: 1px solid #001E33;
+      border-radius: 50%;
+      @include padding(0px,0px,0px,10px);
+      @include margin(0px,0px,0px,10px);
+
+    }
+  }
+  .proj-arrow-mobile{
+    @include flex(flex,center,row,center);
+    @include margin(0rem,0rem,3rem,0rem);
+    .arr_back-proj{
+      position: static;
+      height: 50px;
+      width: 50px;
+      border: 1px solid #001E33;
+      border-radius: 50%;
+      @include padding(9px,0px,1px,8px);
+      @include margin(0px,0px,0px,10px);
+    }
+    .arr_next-proj{
+      position: static;
+      height: 50px;
+      width: 50px;
+      border: 1px solid #001E33;
+      border-radius: 50%;
+      @include padding(9px,0px,1px,8px);
+      @include margin(0px,0px,0px,10px);
+  
+    }
+  }
 }

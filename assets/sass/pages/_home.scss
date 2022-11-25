@@ -698,20 +698,19 @@ header{
         @include flex(flex,center,row,center);
         .arr_back{
           position: static;
-          color: #001E33;
-          font-size: 30px;
+          height: 55px;
+          width: 55px;
           border: 1px solid #001E33;
           border-radius: 50%;
-          @include padding(0px,13px,4px,13px);
-          @include margin(0px,10px,0px,0px);
+          @include padding(0px,0px,0px,10px);
         }
         .arr_next{
           position: static;
-          color: #001E33;
-          font-size: 30px;
+          height: 55px;
+          width: 55px;
           border: 1px solid #001E33;
           border-radius: 50%;
-          @include padding(0px,13px,4px,13px);
+          @include padding(0px,0px,0px,10px);
           @include margin(0px,0px,0px,10px);
   
         }

@@ -2782,29 +2782,25 @@ header .text h6 {
   }
   .proj-cont .container .proj-arrow .arr_back {
     position: static;
-    color: #001E33;
-    font-size: 30px;
+    height: 55px;
+    width: 55px;
     border: 1px solid #001E33;
     border-radius: 50%;
     padding-top: 0px;
-    padding-right: 13px;
-    padding-bottom: 4px;
-    padding-left: 13px;
-    margin-top: 0px;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
   }
   .proj-cont .container .proj-arrow .arr_next {
     position: static;
-    color: #001E33;
-    font-size: 30px;
+    height: 55px;
+    width: 55px;
     border: 1px solid #001E33;
     border-radius: 50%;
     padding-top: 0px;
-    padding-right: 13px;
-    padding-bottom: 4px;
-    padding-left: 13px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -3875,46 +3871,6 @@ header .text h6 {
   letter-spacing: 0.44px;
   color: #00375C;
 }
-.blog-2-page .proj-arrow-mobile {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 0rem;
-  margin-right: 0rem;
-  margin-bottom: 3rem;
-  margin-left: 0rem;
-}
-.blog-2-page .proj-arrow-mobile .arr_back-proj {
-  position: static;
-  color: #001E33;
-  font-size: 30px;
-  border: 1px solid #001E33;
-  border-radius: 50%;
-  padding-top: 0px;
-  padding-right: 13px;
-  padding-bottom: 4px;
-  padding-left: 13px;
-  margin-top: 0px;
-  margin-right: 10px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-}
-.blog-2-page .proj-arrow-mobile .arr_next-proj {
-  position: static;
-  color: #001E33;
-  font-size: 30px;
-  border: 1px solid #001E33;
-  border-radius: 50%;
-  padding-top: 0px;
-  padding-right: 13px;
-  padding-bottom: 4px;
-  padding-left: 13px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 10px;
-}
 
 .blog-2-mobile {
   display: none;
@@ -3996,46 +3952,6 @@ header .text h6 {
     font-weight: bold;
     letter-spacing: 0.44px;
     color: #00375C;
-  }
-  .blog-2-phone .proj-arrow-mobile {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 0rem;
-    margin-right: 0rem;
-    margin-bottom: 3rem;
-    margin-left: 0rem;
-  }
-  .blog-2-phone .proj-arrow-mobile .arr_back-proj {
-    position: static;
-    color: #001E33;
-    font-size: 30px;
-    border: 1px solid #001E33;
-    border-radius: 50%;
-    padding-top: 0px;
-    padding-right: 13px;
-    padding-bottom: 4px;
-    padding-left: 13px;
-    margin-top: 0px;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-  }
-  .blog-2-phone .proj-arrow-mobile .arr_next-proj {
-    position: static;
-    color: #001E33;
-    font-size: 30px;
-    border: 1px solid #001E33;
-    border-radius: 50%;
-    padding-top: 0px;
-    padding-right: 13px;
-    padding-bottom: 4px;
-    padding-left: 13px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 10px;
   }
 }
 .about {
@@ -4259,29 +4175,29 @@ header .text h6 {
   }
   .proj-arrow-mobile .arr_back-proj {
     position: static;
-    color: #001E33;
-    font-size: 30px;
+    height: 50px;
+    width: 50px;
     border: 1px solid #001E33;
     border-radius: 50%;
-    padding-top: 0px;
-    padding-right: 13px;
-    padding-bottom: 4px;
-    padding-left: 13px;
+    padding-top: 9px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 8px;
     margin-top: 0px;
-    margin-right: 10px;
+    margin-right: 0px;
     margin-bottom: 0px;
-    margin-left: 0px;
+    margin-left: 10px;
   }
   .proj-arrow-mobile .arr_next-proj {
     position: static;
-    color: #001E33;
-    font-size: 30px;
+    height: 50px;
+    width: 50px;
     border: 1px solid #001E33;
     border-radius: 50%;
-    padding-top: 0px;
-    padding-right: 13px;
-    padding-bottom: 4px;
-    padding-left: 13px;
+    padding-top: 9px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 8px;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -4390,46 +4306,6 @@ header .text h6 {
   font-weight: bold;
   letter-spacing: 0.44px;
   color: #00375C;
-}
-.services-main .container .proj-arrow-mobile {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  margin-top: 0rem;
-  margin-right: 0rem;
-  margin-bottom: 3rem;
-  margin-left: 0rem;
-}
-.services-main .container .proj-arrow-mobile .arr_back-proj {
-  position: static;
-  color: #001E33;
-  font-size: 30px;
-  border: 1px solid #001E33;
-  border-radius: 50%;
-  padding-top: 0px;
-  padding-right: 13px;
-  padding-bottom: 4px;
-  padding-left: 13px;
-  margin-top: 0px;
-  margin-right: 10px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-}
-.services-main .container .proj-arrow-mobile .arr_next-proj {
-  position: static;
-  color: #001E33;
-  font-size: 30px;
-  border: 1px solid #001E33;
-  border-radius: 50%;
-  padding-top: 0px;
-  padding-right: 13px;
-  padding-bottom: 4px;
-  padding-left: 13px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
-  margin-left: 10px;
 }
 .services-main .container button {
   margin-top: 3rem;
@@ -4712,46 +4588,6 @@ header .text h6 {
     font-weight: bold;
     letter-spacing: 0.44px;
     color: #00375C;
-  }
-  .services-main .container .proj-arrow-mobile {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    margin-top: 0rem;
-    margin-right: 0rem;
-    margin-bottom: 3rem;
-    margin-left: 0rem;
-  }
-  .services-main .container .proj-arrow-mobile .arr_back-proj {
-    position: static;
-    color: #001E33;
-    font-size: 30px;
-    border: 1px solid #001E33;
-    border-radius: 50%;
-    padding-top: 0px;
-    padding-right: 13px;
-    padding-bottom: 4px;
-    padding-left: 13px;
-    margin-top: 0px;
-    margin-right: 10px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-  }
-  .services-main .container .proj-arrow-mobile .arr_next-proj {
-    position: static;
-    color: #001E33;
-    font-size: 30px;
-    border: 1px solid #001E33;
-    border-radius: 50%;
-    padding-top: 0px;
-    padding-right: 13px;
-    padding-bottom: 4px;
-    padding-left: 13px;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 10px;
   }
   .services-main .container button {
     margin-top: 3rem;
