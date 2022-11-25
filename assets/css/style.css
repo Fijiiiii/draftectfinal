@@ -2713,6 +2713,7 @@ header .text h6 {
     padding-left: 0px !important;
   }
   .proj-cont .container .projects .items .proj-img {
+    width: 100%;
     max-width: 500px;
     transition: all linear 0.6s;
     margin: 0px !important;
