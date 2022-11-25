@@ -77,6 +77,50 @@ $(function(){
 }
 );
 
+/*PROJECTS*/
+$(function(){
+  $('.project-mobile').slick({
+    prevArrow:'.arr_back-proj',
+    nextArrow:'.arr_next-proj',
+    arrows: true,
+    dots:false,
+    centerMode: true,
+    centerPadding: '0px',
+    vertical: true,
+    slidesToShow: 3,
+    responsive: [
+      {
+        breakpoint: 768,
+        settings: {
+          prevArrow:'.arr_back-proj',
+          nextArrow:'.arr_next-proj',
+          arrows: true,
+          dots:false,
+          vertical:false,
+          centerMode: true,
+          centerPadding: '0px',
+          slidesToShow: 1,
+          
+        }
+      },
+      {
+        breakpoint: 425,
+        settings: {
+          prevArrow:'.arr_back-proj',
+          nextArrow:'.arr_next-proj',
+          arrows: true,
+          dots:false,
+          centerMode: true,
+          vertical:false,
+          centerPadding: '0px',
+          slidesToShow: 1,
+        }
+      },
+    ],
+  });
+}
+);
+
 /*BLOG*/
 $(function(){
   $('.blog-mobile').slick({

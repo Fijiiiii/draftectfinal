@@ -4247,52 +4247,7 @@ header .text h6 {
 
 /*Phone*/
 @media (max-width: 425px) {
-  .Proj-phone {
-    position: relative;
-  }
-  .Proj-phone .projects-mobile {
-    margin-top: 5rem;
-    margin-right: 0rem;
-    margin-bottom: 0rem;
-    margin-left: 0rem;
-    display: block;
-  }
-  .Proj-phone .projects-mobile .items .proj-img-mobile {
-    width: 100%;
-    max-width: 450px;
-  }
-  .Proj-phone .projects-mobile .items .container {
-    margin-top: 2rem;
-    margin-right: 0rem;
-    margin-bottom: 2rem;
-    margin-left: 0rem;
-  }
-  .Proj-phone .projects-mobile .items .container h1 {
-    max-width: 198px;
-    min-height: 24px;
-    text-align: left;
-    font: normal normal bold 18px/24px Eurostile;
-    letter-spacing: 0.36px;
-    color: #00375C;
-    text-transform: uppercase;
-  }
-  .Proj-phone .projects-mobile .items .container h6 {
-    max-width: 286px;
-    min-height: 50px;
-    text-align: left;
-    font: normal normal medium 12px/20px Montserrat;
-    letter-spacing: 0.24px;
-    color: #00375C;
-  }
-  .Proj-phone .projects-mobile .items .container h5 {
-    max-width: 101px;
-    min-height: 24px;
-    text-align: left;
-    font: normal normal bold 18px/24px Eurostile;
-    letter-spacing: 0.36px;
-    color: #00375C;
-  }
-  .Proj-phone .proj-arrow-mobile {
+  .proj-arrow-mobile {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -4302,7 +4257,7 @@ header .text h6 {
     margin-bottom: 3rem;
     margin-left: 0rem;
   }
-  .Proj-phone .proj-arrow-mobile .arr_back-proj {
+  .proj-arrow-mobile .arr_back-proj {
     position: static;
     color: #001E33;
     font-size: 30px;
@@ -4317,7 +4272,7 @@ header .text h6 {
     margin-bottom: 0px;
     margin-left: 0px;
   }
-  .Proj-phone .proj-arrow-mobile .arr_next-proj {
+  .proj-arrow-mobile .arr_next-proj {
     position: static;
     color: #001E33;
     font-size: 30px;
