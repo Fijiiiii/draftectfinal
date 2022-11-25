@@ -1956,6 +1956,232 @@ footer .row .third-foot .foot-social img {
     margin-left: 0rem;
   }
 }
+@media (max-width: 360px) {
+  .navi {
+    padding-bottom: 0px !important;
+    background-color: black;
+    padding-top: 0rem !important;
+  }
+  .navi .container {
+    padding: 0px !important;
+    margin-right: 0px !important;
+    display: flex;
+    justify-content: space-between !important;
+    flex-direction: row;
+    align-items: center;
+  }
+  .navi .container a .logo-navi {
+    background-image: url("../images/logo-white.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 150px 50px;
+    width: 250px;
+    height: 70px;
+  }
+  .navi .container .navbar-collapse {
+    position: absolute;
+    width: 100%;
+    top: 100%;
+  }
+  .navi .container button {
+    background-color: #0099DC;
+    padding-top: 1.5rem;
+    padding-right: 1rem;
+    padding-bottom: 1.6rem;
+    padding-left: 1rem;
+    border: none;
+    border-radius: 0% !important;
+  }
+  .navi .container button span {
+    color: white;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .navi .container .nav-content {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: center;
+  }
+  .navi .container .nav-content .collapse {
+    background-color: black !important;
+  }
+  .navi .container .nav-content .collapse ul {
+    background-color: black !important;
+    display: flex;
+    justify-content: space-between !important;
+    flex-direction: column;
+    align-items: center;
+  }
+  .navi .container .nav-content .collapse ul li a {
+    background-color: black !important;
+    color: #FFFFFF !important;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Eurostile;
+    font-weight: normal;
+    letter-spacing: 1px;
+  }
+  .navi .container .nav-content .collapse ul .dropdown {
+    background-color: black !important;
+  }
+  .navi .container .nav-content .collapse ul .dropdown .dropdown-menu {
+    display: none;
+  }
+  .navi .container .nav-content .collapse ul .dropdown:hover ul::before {
+    display: none;
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    left: 10%;
+    top: -3%;
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+  .navi .container .nav-content .collapse ul .dropdown:hover ul {
+    margin-top: 5px;
+    display: block;
+    background-color: black;
+    border-radius: 5%;
+    width: 250px;
+    height: 280px;
+    border: none;
+  }
+  .navi .container .nav-content .collapse ul .dropdown:hover ul li {
+    width: 200px !important;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    padding: 0px !important;
+    text-align: center !important;
+  }
+  .navi .container .nav-content .collapse ul .dropdown:hover ul li a {
+    height: 100px !important;
+    width: 400px !important;
+    color: white !important;
+    opacity: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: -10px;
+    text-align: center !important;
+  }
+  .navi .container .nav-content .collapse ul .dropdown:hover ul li a:hover {
+    color: #FFFFFF !important;
+    opacity: 100%;
+  }
+  .navi .container .nav-content .collapse ul .dropdown:hover ul li hr {
+    padding: 0px !important;
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    color: white !important;
+  }
+  .navi .container .nav-content .nav-link {
+    background-color: #04375C;
+    padding-top: 0.6rem;
+    padding-right: 0rem;
+    padding-bottom: 0.6rem;
+    padding-left: 0rem;
+  }
+  .navi .container .nav-content .nav-link .tryings {
+    background: url("../images/search-white.svg") no-repeat center center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+    width: 50px;
+    height: 50px;
+  }
+  .stix {
+    background-color: white !important;
+    padding-top: 0rem !important;
+    box-shadow: 1px 1px 50px gray;
+  }
+  .stix .container a .logo-navi {
+    background-image: url("../images/logo-blue.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 70px;
+    width: 250px;
+    height: 100px;
+  }
+  .stix .container button span {
+    color: white;
+  }
+  .stix .container .nav-content .collapse ul {
+    background-color: white !important;
+  }
+  .stix .container .nav-content .collapse ul li a {
+    background-color: white !important;
+    font-size: 18px;
+    line-height: 22px;
+    font-family: Eurostile;
+    font-weight: normal;
+    letter-spacing: 1px;
+    color: #00375C !important;
+  }
+  .stix .container .nav-content .collapse ul .dropdown {
+    background-color: rgb(255, 255, 255) !important;
+  }
+  .stix .container .nav-content .collapse ul .dropdown .dropdown-menu {
+    display: none;
+  }
+  .stix .container .nav-content .collapse ul .dropdown:hover ul::before {
+    display: none;
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    left: 10%;
+    top: -3%;
+    transform: rotate(45deg);
+    z-index: 1;
+  }
+  .stix .container .nav-content .collapse ul .dropdown:hover ul {
+    margin-top: 5px;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5%;
+    width: 250px;
+    height: 280px;
+    border: none;
+  }
+  .stix .container .nav-content .collapse ul .dropdown:hover ul li {
+    width: 200px !important;
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    padding: 0px !important;
+    text-align: center !important;
+  }
+  .stix .container .nav-content .collapse ul .dropdown:hover ul li a {
+    height: 100px !important;
+    width: 400px !important;
+    color: black !important;
+    opacity: 50%;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: -10px;
+    text-align: center !important;
+  }
+  .stix .container .nav-content .collapse ul .dropdown:hover ul li a:hover {
+    color: black !important;
+    opacity: 100%;
+  }
+  .stix .container .nav-content .collapse ul .dropdown:hover ul li hr {
+    padding: 0px !important;
+    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-bottom: 1rem;
+    margin-left: 0rem;
+    color: black !important;
+  }
+}
 .banner {
   background: url(../images/banner.webp) no-repeat center center;
   -webkit-background-size: cover;
