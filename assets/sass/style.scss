@@ -11,35 +11,13 @@
 body{
   overflow-x: hidden;
 }
-@mixin flex($display,$justify,$direction,$align) {
-  display: $display;
-  justify-content: $justify;
-  flex-direction: $direction;
-  align-items: $align;
-}
-@mixin padding($ptop,$pright,$pbot,$pleft) {
-  padding-top: $ptop;
-  padding-right: $pright;
-  padding-bottom: $pbot;
-  padding-left: $pleft;
-}
-@mixin margin($mtop,$mright,$mbot,$mleft) {
-  margin-top: $mtop;
-  margin-right: $mright;
-  margin-bottom: $mbot;
-  margin-left: $mleft;
-}
-@mixin pad-fluid() {
-  padding-right: 5rem;
-  padding-left: 5rem;
-}
 
 $white: #FFFFFF;
 $white2: #00375C0D;
 $white3: #00000029;
 $gray: #00000029;
  
-
+@import './mixins';
 @import './layout/nav&footer';
 @import './layout/banner';
 @import './pages/home';
