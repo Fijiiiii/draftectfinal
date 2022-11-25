@@ -4649,4 +4649,76 @@ header .text h6 {
   .dis-425 {
     display: flex !important;
   }
+  .proj-arrow {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  .proj-arrow .arr_back {
+    position: static;
+    height: 55px;
+    width: 55px;
+    border: 1px solid #001E33;
+    border-radius: 50%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+  }
+  .proj-arrow .arr_next {
+    position: static;
+    height: 55px;
+    width: 55px;
+    border: 1px solid #001E33;
+    border-radius: 50%;
+    padding-top: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+  }
+  .proj-arrow-mobile {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 3rem;
+    margin-left: 0rem;
+  }
+  .proj-arrow-mobile .arr_back-proj {
+    position: static;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #001E33;
+    border-radius: 50%;
+    padding-top: 9px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+  }
+  .proj-arrow-mobile .arr_next-proj {
+    position: static;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #001E33;
+    border-radius: 50%;
+    padding-top: 9px;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 8px;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+  }
 }/*# sourceMappingURL=style.css.map */
