@@ -2748,7 +2748,7 @@ header .text h6 {
   .proj-cont .container .projects .slick-center a .proj-img {
     top: 20%;
     left: 0%;
-    transform: none;
+    transform: none !important;
     opacity: 100% !important;
     position: absolute;
     z-index: 23;
