@@ -835,7 +835,7 @@ header{
           max-width: 925px;
           min-height: 3px;
           text-align: center;
-          font: normal normal normal 60px/75px Eurostile;
+          font: normal normal normal 22px/26px Eurostile;
           letter-spacing: 0px;
           color: #00375C;
           text-transform: uppercase;
@@ -854,16 +854,15 @@ header{
           display: flex;
           align-items: center;
           justify-content: center;
-          width: 100%;
           min-height: 500px;
           position: relative;
           margin: 0px !important;
           padding-left: 0px !important;
-          .proj-img{
-            width: 390px;
-            min-height: 390px;
-            transition: all linear 1s;
-            margin: 10px !important;
+          .proj-img{ 
+            width: 100%;
+            max-width: 500px;
+            transition: all linear .6s;
+            margin: 0px !important;
             
           }
           h1{
@@ -873,7 +872,7 @@ header{
             max-width: 286px;
             min-height: 32px;
             text-align: left;
-            font: normal normal bold 25px/100px Eurostile;
+            font: normal normal bold 25px/20px Eurostile;
             letter-spacing: 0.75px;
             color: #FFFFFF;
             text-shadow: 0px 3px 6px #ff000029;
@@ -882,47 +881,49 @@ header{
           }
           .overlay{
             display: none;
-            top: 11%;
-            left: 10;
+            top: 14%;
+            left: 0%;
             position: absolute;
             width: 100%;
-            max-width: 390px;
-            min-height: 390px;
+            max-width: 600px;
+            min-height: 460px;
             background-color: $white;
             transition: all linear .6s;
-            opacity: 50%;
+            opacity: 80%;
           }
         }
         .slick-center{
-          .proj-img{
-            transform: scale(1.1);
-            opacity: 100% !important;
-            position: absolute;
-            z-index: 23;
-            padding: 0px !important;
-            margin: 0px !important;
-          }
-          h1{
-            padding: 0px !important;
-            margin: 0px !important;
-            position: absolute;
-            transform: scale(1);
-            z-index: 25;
-            top: 75%;
-            left: 15%;
-            width: 250px;
-            height: 32px;
-            text-align: center;
-            font: normal normal bold 25px/100px Eurostile;
-            letter-spacing: 0.75px;
-            color: #FFFFFF;
-            text-shadow: 0px 3px 6px #ff000029;
-            text-transform: uppercase;
-          }
-          .overlay{
-            transform: scale(1);
-            opacity: 0;
-            display: none;
+          a{
+            
+            .proj-img{
+              width: 100%;
+              top: 15%;
+              left: 0%;
+              transform: none !important;
+              opacity: 100% !important;
+              position: absolute;
+              z-index: 23;
+              padding: 0px !important;
+              margin: 0px !important;
+            }
+            h1{
+              position: absolute;
+              transform: none;
+              z-index: 25;
+              top: 70%;
+              left: 10%;
+              max-width: 286px;
+              min-height: 32px;
+              text-align: left;
+              font: normal normal bold 25px/20px Eurostile;
+              letter-spacing: 0.75px;
+              color: #FFFFFF;
+              text-shadow: 0px 3px 6px #ff000029;
+              text-transform: uppercase;
+            }
+            .overlay{
+              transform: none;
+            }
           }
         }
       }
@@ -930,20 +931,19 @@ header{
           @include flex(flex,center,row,center);
           .arr_back{
             position: static;
-            color: #001E33;
-            font-size: 30px;
+            height: 55px;
+            width: 55px;
             border: 1px solid #001E33;
             border-radius: 50%;
-            @include padding(0px,13px,4px,13px);
-            @include margin(0px,10px,0px,0px);
+            @include padding(0px,0px,0px,10px);
           }
           .arr_next{
             position: static;
-            color: #001E33;
-            font-size: 30px;
+            height: 55px;
+            width: 55px;
             border: 1px solid #001E33;
             border-radius: 50%;
-            @include padding(0px,13px,4px,13px);
+            @include padding(0px,0px,0px,10px);
             @include margin(0px,0px,0px,10px);
     
           }

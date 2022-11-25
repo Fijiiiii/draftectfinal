@@ -18,8 +18,10 @@ $white3: #00000029;
 $gray: #00000029;
  
 @import './mixins';
+
 @import './layout/nav&footer';
 @import './layout/banner';
+
 @import './pages/home';
 @import './pages/contact';
 @import './pages/blog';
