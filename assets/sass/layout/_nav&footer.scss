@@ -1135,6 +1135,9 @@ footer{
   }
 }
 @media (max-width: 470px){
+  nav{
+    position:relative !important;
+  }
   .navi{
     height: 5rem;
     padding-bottom: 0px !important;
@@ -1414,7 +1417,7 @@ footer{
         }
       }
       .tries{
-        
+        display: block !important;
         @include padding(0rem,0rem,0rem,0rem);
         .foot-hr{
           @include padding(0rem,0rem,0rem,0rem);

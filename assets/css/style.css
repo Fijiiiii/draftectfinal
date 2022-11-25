@@ -1241,6 +1241,9 @@ footer .row .third-foot .foot-social img {
   }
 }
 @media (max-width: 470px) {
+  nav {
+    position: relative !important;
+  }
   .navi {
     height: 5rem;
     padding-bottom: 0px !important;
@@ -1542,6 +1545,7 @@ footer .row .third-foot .foot-social img {
     margin-left: 0rem;
   }
   footer .row .tries {
+    display: block !important;
     padding-top: 0rem;
     padding-right: 0rem;
     padding-bottom: 0rem;
@@ -1978,6 +1982,29 @@ footer .row .third-foot .foot-social img {
   background: transparent !important;
 }
 
+@media (max-width: 425px) {
+  .banner {
+    background: url(../images/banner.webp) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  .banner h1 {
+    max-width: 1159px;
+    min-height: 51px;
+    text-align: center;
+    font: normal normal normal 30px/75px Eurostile;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+}
 header {
   display: flex;
   justify-content: center;
@@ -4606,28 +4633,6 @@ header .text h6 {
     text-transform: uppercase;
   }
 }
-.banner {
-  background: url(../images/banner.webp) no-repeat center center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  min-height: 540px;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-}
-.banner h1 {
-  max-width: 1159px;
-  min-height: 51px;
-  text-align: center;
-  font: normal normal normal 60px/75px Eurostile;
-  letter-spacing: 0px;
-  color: #FFFFFF;
-  text-transform: uppercase;
-}
-
 .nopadding {
   padding: 0px !important;
 }
