@@ -2156,15 +2156,12 @@ header .text h6 {
   padding-left: 0px !important;
 }
 .proj-cont .projects .items .proj-img {
-  width: 100%;
-  max-width: 350px;
-  min-height: 350px;
   transition: all linear 0.6s;
   margin: 0px !important;
 }
 .proj-cont .projects .items h1 {
   position: absolute;
-  top: 70%;
+  top: 65%;
   left: 10%;
   max-width: 286px;
   min-height: 32px;
@@ -2177,20 +2174,19 @@ header .text h6 {
   transition: all linear 0.6s;
 }
 .proj-cont .projects .items .overlay {
-  top: 15%;
-  left: 10;
+  top: 14%;
+  left: 0%;
   position: absolute;
   width: 100%;
-  max-width: 350px;
-  min-height: 350px;
+  max-width: 600px;
+  min-height: 460px;
   background-color: #FFFFFF;
   transition: all linear 0.6s;
   opacity: 80%;
 }
 .proj-cont .projects .slick-center a .proj-img {
-  top: 15%;
+  top: 20%;
   left: 5%;
-  position: absolute;
   transform: scale(1.2);
   opacity: 100% !important;
   position: absolute;
@@ -2202,7 +2198,7 @@ header .text h6 {
   position: absolute;
   transform: scale(1.2);
   z-index: 25;
-  top: 75%;
+  top: 70%;
   left: 10%;
   max-width: 286px;
   min-height: 32px;
@@ -2214,8 +2210,7 @@ header .text h6 {
   text-transform: uppercase;
 }
 .proj-cont .projects .slick-center a .overlay {
-  transform: scale(2);
-  opacity: 0;
+  transform: none;
 }
 .proj-cont .arr_back {
   position: absolute;
@@ -2712,26 +2707,24 @@ header .text h6 {
     display: flex;
     align-items: center;
     justify-content: center;
-    max-width: 500px;
     min-height: 500px;
     position: relative;
     margin: 0px !important;
     padding-left: 0px !important;
   }
   .proj-cont .container .projects .items .proj-img {
-    width: 100%;
-    min-height: 390px;
+    max-width: 500px;
     transition: all linear 0.6s;
     margin: 0px !important;
   }
   .proj-cont .container .projects .items h1 {
     position: absolute;
-    top: 75%;
+    top: 65%;
     left: 10%;
     max-width: 286px;
     min-height: 32px;
     text-align: left;
-    font: normal normal bold 25px/100px Eurostile;
+    font: normal normal bold 25px/20px Eurostile;
     letter-spacing: 0.75px;
     color: #FFFFFF;
     text-shadow: 0px 3px 6px rgba(255, 0, 0, 0.1607843137);
@@ -2739,46 +2732,20 @@ header .text h6 {
     transition: all linear 0.6s;
   }
   .proj-cont .container .projects .items .overlay {
-    top: 11%;
-    left: 10;
+    display: none;
+    top: 14%;
+    left: 0%;
     position: absolute;
     width: 100%;
-    max-width: 390px;
-    min-height: 390px;
+    max-width: 600px;
+    min-height: 460px;
     background-color: #FFFFFF;
     transition: all linear 0.6s;
     opacity: 80%;
   }
-  .proj-cont .container .projects .slick-center {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .proj-cont .container .projects .slick-center h1 {
-    position: absolute;
-    transform: none;
-    z-index: 25;
-    top: 75%;
-    left: 10%;
-    max-width: 286px;
-    min-height: 32px;
-    text-align: left;
-    font: normal normal bold 25px/100px Eurostile;
-    letter-spacing: 0.75px;
-    color: #FFFFFF;
-    text-shadow: 0px 3px 6px rgba(255, 0, 0, 0.1607843137);
-    text-transform: uppercase;
-  }
-  .proj-cont .container .projects .slick-center .overlay {
-    display: none;
-    transform: scale(2);
-    opacity: 0;
-  }
   .proj-cont .container .projects .slick-center a .proj-img {
-    width: 500px;
-    top: 10%;
+    top: 20%;
     left: 0%;
-    position: absolute;
     transform: none;
     opacity: 100% !important;
     position: absolute;
@@ -2790,20 +2757,19 @@ header .text h6 {
     position: absolute;
     transform: none;
     z-index: 25;
-    top: 75%;
+    top: 70%;
     left: 10%;
     max-width: 286px;
     min-height: 32px;
     text-align: left;
-    font: normal normal bold 25px/100px Eurostile;
+    font: normal normal bold 25px/20px Eurostile;
     letter-spacing: 0.75px;
     color: #FFFFFF;
     text-shadow: 0px 3px 6px rgba(255, 0, 0, 0.1607843137);
     text-transform: uppercase;
   }
   .proj-cont .container .projects .slick-center a .overlay {
-    transform: scale(2);
-    opacity: 0;
+    transform: none;
   }
   .proj-cont .container .proj-arrow {
     display: flex;
