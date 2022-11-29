@@ -6,3 +6,25 @@
 body{
   overflow-x: hidden;
 }
+
+@media (max-width: 991px){
+  .order0{
+    order: 0;
+  }
+  .order1{
+    order: 1;
+  }
+  .order2{
+    order: 2;
+  }
+  .order3{
+    order: 3;
+  }
+  .order4{
+    order: 4;
+  }
+  .order5{
+    order: 5;
+  }
+
+}
