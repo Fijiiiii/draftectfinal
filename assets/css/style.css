@@ -4136,6 +4136,9 @@ header .text h6 {
   margin-bottom: 0rem;
   margin-left: 0rem;
 }
+.contact .container .row form .form-control {
+  padding-left: 2rem !important;
+}
 .contact .container .row form input {
   margin-top: 0.5rem;
   margin-right: 0rem;

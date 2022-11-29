@@ -81,6 +81,9 @@
       }
       form{
         @include margin(0rem,5rem,0rem,0rem);
+        .form-control{
+          padding-left: 2rem !important;
+        }
         input{
           @include margin(.5rem,0rem,.5rem,0rem);
           width: 100%;
