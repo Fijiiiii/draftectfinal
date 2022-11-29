@@ -2,6 +2,7 @@
   @include margin(10rem,0rem,10rem,0rem);
   .container{
     @include flex(flex,center,column,center);
+    @include padding(0rem,20rem,0rem,20rem);
     .label{
       @include flex(flex,center,column,center);
       @include margin(0rem,0rem,5rem,0rem);
@@ -25,8 +26,6 @@
     }
     .blog-img{
       width: 100%;
-      max-width: 1050px;
-      min-height: 648px;
     }
     .blog-par{
       @include margin(5rem,0rem,0rem,0rem);
@@ -70,10 +69,6 @@
       }
       .blog-img{
         width: 100%;
-        max-width: 1050px;
-        height: 100%;
-        min-height: 48px;
-        max-height: 500px
       }
       .blog-par{
         @include margin(5rem,0rem,0rem,0rem);

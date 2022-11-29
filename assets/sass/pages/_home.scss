@@ -93,7 +93,7 @@ header{
         h6{
           text-align: left;
           font-size: 18px;
-          line-height: 40px;
+          line-height: 25px;
           font-family:Montserrat;
           font-weight: normal;
           letter-spacing: 0.36px;
@@ -241,7 +241,6 @@ header{
   }
   }
 }
-
 .home-about{
     @include flex(flex,center,column,center);
     height: 100vh;

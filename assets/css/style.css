@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
   box-sizing: border-box;
   margin: 0;
@@ -34,6 +34,10 @@ body {
   font-family: Eurostile;
   src: url(/assets/fonts/eurostile-font/EuroStyleNormal.ttf);
 }
+@font-face {
+  font-family: Eurostile-bold;
+  src: url(/assets/fonts/eurostile-font/EurostileBold.ttf);
+}
 /*N A V B A R*/
 .navi {
   background-color: transparent;
@@ -56,7 +60,7 @@ body {
 .navi .container .nav-content .collapse ul li a {
   color: #FFFFFF !important;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1rem;
   font-family: Eurostile;
   font-weight: normal;
   letter-spacing: 1px;
@@ -70,7 +74,7 @@ body {
   content: "";
   height: 20px;
   width: 20px;
-  background-color: #0099DC;
+  background-color: #217CA4;
   left: 10%;
   top: -1%;
   transform: rotate(45deg);
@@ -78,10 +82,10 @@ body {
 }
 .navi .container .nav-content .collapse ul .dropdown:hover ul {
   display: block;
-  background-color: #0099DC;
+  background-color: #217CA4;
   border-radius: 5%;
   width: 230px;
-  height: 280px;
+  height: 330px;
   border: none;
 }
 .navi .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -97,13 +101,12 @@ body {
   padding-right: 1rem;
   padding-bottom: 0.5rem;
   padding-left: 0rem;
-  height: 100px !important;
   width: 400px !important;
   color: white !important;
   opacity: 50%;
   font-size: 16px;
   font-weight: 500;
-  line-height: -10px;
+  line-height: -10rem !important;
 }
 .navi .container .nav-content .collapse ul .dropdown:hover ul li a:hover {
   color: #FFFFFF !important;
@@ -161,7 +164,7 @@ body {
   content: "";
   height: 20px;
   width: 20px;
-  background-color: #0099DC;
+  background-color: #217CA4;
   left: 10%;
   top: -1%;
   transform: rotate(45deg);
@@ -169,10 +172,10 @@ body {
 }
 .navi-cont .container .nav-content .collapse ul .dropdown:hover ul {
   display: block;
-  background-color: #0099DC;
+  background-color: #217CA4;
   border-radius: 5%;
   width: 230px;
-  height: 280px;
+  height: 330px;
   border: none;
 }
 .navi-cont .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -232,7 +235,7 @@ body {
 }
 .stix .container .nav-content .collapse ul li a {
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1rem;
   font-family: Eurostile;
   font-weight: normal;
   letter-spacing: 1px;
@@ -268,7 +271,7 @@ footer .footer-logo .footlog {
 }
 footer .row .first-foot {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   flex-direction: row;
   align-items: flex-start;
 }
@@ -305,6 +308,9 @@ footer .row .second-foot .foot-form {
   width: 100%;
   max-width: 500px;
 }
+footer .row .second-foot .foot-form .form-control {
+  padding-left: 2rem !important;
+}
 footer .row .second-foot .foot-form h4 {
   margin-top: 0rem;
   margin-right: 0rem;
@@ -329,7 +335,7 @@ footer .row .second-foot .foot-form h6 {
   font-size: 18px;
   line-height: 30px;
   font-family: Montserrat;
-  font-weight: bolder;
+  font-weight: 500;
   letter-spacing: 0.9px;
   color: #00375C;
 }
@@ -366,7 +372,7 @@ footer .row .third-foot h4 {
   margin-top: 0rem;
   margin-right: 0rem;
   margin-bottom: 2rem;
-  margin-left: 2rem;
+  margin-left: 0rem;
   max-width: 140px;
   min-height: 24px;
   text-align: left;
@@ -379,7 +385,7 @@ footer .row .third-foot h5 {
   margin-top: 0rem;
   margin-right: 0rem;
   margin-bottom: 0rem;
-  margin-left: 2rem;
+  margin-left: 0rem;
   max-width: 350px;
   min-height: 26px;
   text-align: left;
@@ -391,11 +397,11 @@ footer .row .third-foot h6 {
   margin-top: 0rem;
   margin-right: 0rem;
   margin-bottom: 0rem;
-  margin-left: 2rem;
+  margin-left: 0rem;
   max-width: 400px;
   min-height: 5px;
   text-align: left;
-  font: normal normal bold 20px/30px Eurostile;
+  font: normal normal bolder 20px/30px Eurostile-bold;
   letter-spacing: 1px;
   color: #00375C;
 }
@@ -403,11 +409,11 @@ footer .row .third-foot h3 {
   margin-top: 0rem;
   margin-right: 0rem;
   margin-bottom: 0rem;
-  margin-left: 2rem;
+  margin-left: 0rem;
   max-width: 300px;
   min-height: 5px;
   text-align: left;
-  font: normal normal 300 18px/30px Montserrat;
+  font: normal normal 400 18px/30px Montserrat;
   letter-spacing: 0.9px;
   color: #00375C;
 }
@@ -415,7 +421,7 @@ footer .row .third-foot .foot-social {
   margin-top: 0rem;
   margin-right: 0rem;
   margin-bottom: 0rem;
-  margin-left: 2rem;
+  margin-left: 0rem;
 }
 footer .row .third-foot .foot-social img {
   margin-top: 6rem;
@@ -450,7 +456,7 @@ footer .row .third-foot .foot-social img {
     content: "";
     height: 20px;
     width: 20px;
-    background-color: #0099DC;
+    background-color: #217CA4;
     left: 10%;
     top: -3%;
     transform: rotate(45deg);
@@ -459,10 +465,8 @@ footer .row .third-foot .foot-social img {
   .navi .container .collapse ul .dropdown:hover ul {
     margin-top: 5px;
     display: block;
-    background-color: #0099DC;
+    background-color: #217CA4;
     border-radius: 5%;
-    width: 250px;
-    height: 280px;
     border: none;
   }
   .navi .container .collapse ul .dropdown:hover ul li {
@@ -527,7 +531,7 @@ footer .row .third-foot .foot-social img {
     content: "";
     height: 20px;
     width: 20px;
-    background-color: #0099DC;
+    background-color: #217CA4;
     left: 10%;
     top: -3%;
     transform: rotate(45deg);
@@ -536,10 +540,8 @@ footer .row .third-foot .foot-social img {
   .navi-cont .container .collapse ul .dropdown:hover ul {
     margin-top: 5px;
     display: block;
-    background-color: #0099DC;
+    background-color: #217CA4;
     border-radius: 5%;
-    width: 250px;
-    height: 280px;
     border: none;
   }
   .navi-cont .container .collapse ul .dropdown:hover ul li {
@@ -695,8 +697,6 @@ footer .row .third-foot .foot-social img {
     display: block;
     background-color: black;
     border-radius: 5%;
-    width: 250px;
-    height: 280px;
     border: none;
   }
   .navi .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -827,8 +827,6 @@ footer .row .third-foot .foot-social img {
     display: block;
     background-color: black;
     border-radius: 5%;
-    width: 250px;
-    height: 280px;
     border: none;
   }
   .navi-cont .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -925,8 +923,6 @@ footer .row .third-foot .foot-social img {
     display: block;
     background-color: rgb(255, 255, 255);
     border-radius: 5%;
-    width: 250px;
-    height: 280px;
     border: none;
   }
   .stix .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -1424,8 +1420,6 @@ footer .row .third-foot .foot-social img {
     display: block;
     background-color: black;
     border-radius: 5%;
-    width: 250px;
-    height: 280px;
     border: none;
   }
   .navi .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -1562,8 +1556,6 @@ footer .row .third-foot .foot-social img {
     display: block;
     background-color: black;
     border-radius: 5%;
-    width: 250px;
-    height: 280px;
     border: none;
   }
   .navi-cont .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -1663,8 +1655,6 @@ footer .row .third-foot .foot-social img {
     display: block;
     background-color: rgb(255, 255, 255);
     border-radius: 5%;
-    width: 250px;
-    height: 280px;
     border: none;
   }
   .stix .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -1795,8 +1785,6 @@ footer .row .third-foot .foot-social img {
     display: block;
     background-color: black;
     border-radius: 5%;
-    width: 250px;
-    height: 280px;
     border: none;
   }
   .navi .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -1937,8 +1925,6 @@ footer .row .third-foot .foot-social img {
     display: block;
     background-color: black;
     border-radius: 5%;
-    width: 250px;
-    height: 280px;
     border: none;
   }
   .navi-cont .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -2046,8 +2032,6 @@ footer .row .third-foot .foot-social img {
     display: block;
     background-color: rgb(255, 255, 255);
     border-radius: 5%;
-    width: 250px;
-    height: 280px;
     border: none;
   }
   .stix .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -2646,8 +2630,6 @@ footer .row .third-foot .foot-social img {
     display: block;
     background-color: black;
     border-radius: 5%;
-    width: 250px;
-    height: 280px;
     border: none;
   }
   .navi .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -2784,8 +2766,6 @@ footer .row .third-foot .foot-social img {
     display: block;
     background-color: black;
     border-radius: 5%;
-    width: 250px;
-    height: 280px;
     border: none;
   }
   .navi-cont .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -2885,8 +2865,6 @@ footer .row .third-foot .foot-social img {
     display: block;
     background-color: rgb(255, 255, 255);
     border-radius: 5%;
-    width: 250px;
-    height: 280px;
     border: none;
   }
   .stix .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -3087,7 +3065,7 @@ header .text h6 {
 .home-services .container .home-serv-flex .home-serv-par h6 {
   text-align: left;
   font-size: 18px;
-  line-height: 40px;
+  line-height: 25px;
   font-family: Montserrat;
   font-weight: normal;
   letter-spacing: 0.36px;
@@ -4671,6 +4649,10 @@ header .text h6 {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding-top: 0rem;
+  padding-right: 20rem;
+  padding-bottom: 0rem;
+  padding-left: 20rem;
 }
 .blog .container .label {
   display: flex;
@@ -4701,8 +4683,6 @@ header .text h6 {
 }
 .blog .container .blog-img {
   width: 100%;
-  max-width: 1050px;
-  min-height: 648px;
 }
 .blog .container .blog-par {
   margin-top: 5rem;
@@ -4761,10 +4741,6 @@ header .text h6 {
   }
   .blog .container .blog-img {
     width: 100%;
-    max-width: 1050px;
-    height: 100%;
-    min-height: 48px;
-    max-height: 500px;
   }
   .blog .container .blog-par {
     margin-top: 5rem;
