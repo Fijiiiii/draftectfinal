@@ -165,6 +165,25 @@ $(function(){
 }
 );
 
+/*Drafting*/
+$(function(){
+  $('.drafting-carousel').slick({
+    prevArrow:'.arr_back-draft',
+    nextArrow:'.arr_next-draft',
+    arrows: true,
+    dots:true,
+    dotsData:true,
+    centerMode: true,
+    centerPadding: '0px',
+    slidesToShow: 1,
+    customPaging: function(slick,index) {
+      return '<a>' + (index + 1) + '</a>';
+  }
+
+  });
+}
+);
+
 /*NEWS*/
 $(function(){
   $('.news-items').slick({
