@@ -5289,6 +5289,11 @@ header .text h6 {
   text-transform: uppercase;
 }
 
+@media (max-width: 1360px) {
+  .services-main .container .news h2 {
+    min-height: 150px;
+  }
+}
 @media (max-width: 425px) {
   .services-header {
     /* The image used */
