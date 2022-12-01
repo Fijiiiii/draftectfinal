@@ -1,8 +1,8 @@
-.draft-youtube{
+.youtube{
   @include flex(flex,center,row,center);
   .container{
     @include flex(flex,center,row,center);
-    @include margin(5rem,0rem,5rem,0rem);
+    @include margin(10rem,0rem,0rem,0rem);
     iframe{
       width: 100%;
       height: 100%;
@@ -11,9 +11,6 @@
     }
   }
 }
-
-
-
 
 .drafting{
   @include margin(5rem,0rem,5rem,0rem);
