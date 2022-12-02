@@ -5,7 +5,7 @@
   .container{
     a{
       .logo-navi{
-        background-image: url('./assets/images/logo-white.svg');
+        background-image: url('../images/logo-white.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: 300px;
@@ -20,12 +20,16 @@
           li{
             a{
             color: $white !important;
+            opacity: 65%;
             font-size: 18px;
             line-height: 1rem;
             font-family:Eurostile;
             font-weight: normal;
             letter-spacing: 1px;
             @include margin(0rem,1rem !important,0rem,0rem);
+            &:hover{
+              opacity: 100%;
+            }
             }
           }
           .dropdown{
@@ -98,7 +102,7 @@
   .container{
     a{
       .logo-navi{
-        background-image: url('./assets/images/logo-blue.svg');
+        background-image: url('../images/logo-blue.svg');
         background-repeat: no-repeat;
         background-position: center;
         background-size: 300px;

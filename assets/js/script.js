@@ -250,7 +250,7 @@ $(function () {
   $(document).on("load scroll", function() {
     const navbar = document.querySelector('nav');
     document.onscroll = () => {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 0) {
         navbar.classList.add('stix');
     } else {
         navbar.classList.remove('stix');

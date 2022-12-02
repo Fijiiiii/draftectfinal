@@ -44,7 +44,7 @@ body {
   padding-top: 0rem !important;
 }
 .navi .container a .logo-navi {
-  background-image: url("./assets/images/logo-white.svg");
+  background-image: url("../images/logo-white.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 300px;
@@ -59,6 +59,7 @@ body {
 }
 .navi .container .nav-content .collapse ul li a {
   color: #FFFFFF !important;
+  opacity: 65%;
   font-size: 18px;
   line-height: 1rem;
   font-family: Eurostile;
@@ -68,6 +69,9 @@ body {
   margin-right: 1rem !important;
   margin-bottom: 0rem;
   margin-left: 0rem;
+}
+.navi .container .nav-content .collapse ul li a:hover {
+  opacity: 100%;
 }
 .navi .container .nav-content .collapse ul .dropdown:hover ul::before {
   position: absolute;
@@ -135,7 +139,7 @@ body {
   padding-top: 0rem !important;
 }
 .navi-cont .container a .logo-navi {
-  background-image: url("./assets/images/logo-blue.svg");
+  background-image: url("../images/logo-blue.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 300px;
@@ -3302,6 +3306,133 @@ header .text h6 {
   width: 10rem;
 }
 
+@media (max-width: 1399px) {
+  .proj-cont {
+    position: relative;
+  }
+  .proj-cont .proj {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    margin-right: 0rem;
+    margin-bottom: 3rem;
+    margin-left: 0rem;
+  }
+  .proj-cont .proj h1 {
+    max-width: 925px;
+    min-height: 73px;
+    text-align: center;
+    font: normal normal normal 60px/75px Eurostile;
+    letter-spacing: 0px;
+    color: #00375C;
+    text-transform: uppercase;
+  }
+  .proj-cont .projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+  }
+  .proj-cont .projects .items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    position: relative;
+    margin: 0px !important;
+    padding-left: 0px !important;
+  }
+  .proj-cont .projects .items .proj-img {
+    width: 100%;
+    transition: all linear 0.6s;
+    margin: 0px !important;
+  }
+  .proj-cont .projects .items h1 {
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    max-width: 286px;
+    min-height: 32px;
+    text-align: left;
+    font: normal normal bold 25px/20px Eurostile;
+    letter-spacing: 0.75px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px rgba(255, 0, 0, 0.1607843137);
+    text-transform: uppercase;
+    transition: all linear 0.6s;
+  }
+  .proj-cont .projects .items .overlay {
+    top: 14%;
+    left: 0%;
+    position: absolute;
+    width: 100%;
+    max-width: 600px;
+    min-height: 460px;
+    background-color: #FFFFFF;
+    transition: all linear 0.6s;
+    opacity: 80%;
+  }
+  .proj-cont .projects .slick-center a .proj-img {
+    top: 27%;
+    left: 5%;
+    transform: scale(1.2);
+    opacity: 100% !important;
+    position: absolute;
+    z-index: 23;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .proj-cont .projects .slick-center a h1 {
+    position: absolute;
+    transform: scale(1.2);
+    z-index: 25;
+    top: 70%;
+    left: 10%;
+    max-width: 286px;
+    min-height: 32px;
+    text-align: left;
+    font: normal normal bold 25px/20px Eurostile;
+    letter-spacing: 0.75px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px rgba(255, 0, 0, 0.1607843137);
+    text-transform: uppercase;
+  }
+  .proj-cont .projects .slick-center a .overlay {
+    transform: none;
+  }
+  .proj-cont .arr_back {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: #001E33;
+    font-size: 30px;
+  }
+  .proj-cont .arr_next {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    color: #001E33;
+    font-size: 30px;
+  }
+  .proj-cont a button {
+    margin-top: 3rem;
+    margin-right: 0rem;
+    margin-bottom: 5rem;
+    margin-left: 0rem;
+    width: 306px;
+    min-height: 70px;
+    background: transparent linear-gradient(312deg, #1A99DC 0%, #04375C 100%) 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    border: none;
+    text-align: center;
+    font: normal normal bold 24px/5px Eurostile;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+  }
+}
 @media (max-width: 1024px) {
   .home-logos {
     display: flex;
