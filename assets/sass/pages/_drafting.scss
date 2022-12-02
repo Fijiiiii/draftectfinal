@@ -26,6 +26,41 @@
       }
     }
     .drafting-carousel{
+      
+      .dialog-modal{
+        width: 50%;
+        min-height: 200px;
+        position: fixed !important;
+        top: 2%;
+        left: 20%;
+        border: none !important;
+        
+        .modal-top{
+          @include margin(1rem,1rem,0rem,1rem);
+        @include flex(flex,flex-end !important,row,center);
+        }
+        .article{
+          @include margin(1rem,5rem,0rem,5rem);
+          max-width: 1000px;
+          height: 500px;
+          background: #EBF7FD 0% 0% no-repeat padding-box;
+                  }
+        h1{
+          @include margin(1rem,5rem,0rem,5rem);
+          text-align: left;
+          font: normal normal bold 26px/34px Eurostile;
+          letter-spacing: 0.52px;
+          color: #00375C;
+          text-transform: uppercase;
+        }
+        h6{
+          @include margin(0rem,5rem,2rem,5rem);
+          text-align: left;
+          font: normal normal medium 18px/30px Montserrat;
+          letter-spacing: 0.36px;
+          color: #00375C;
+        }
+      }
       .slicky{
         @include flex(flex,center,row,center);
       }
@@ -33,6 +68,7 @@
         height: 1500px !important;
       }
       .drafting-container{
+        cursor: pointer;
         @include margin(5rem,0rem,5rem,0rem);
         .article{
           width: 100%;
@@ -88,24 +124,28 @@
     }
     .slick-dots li.slick-active,
     .slick-dots li.slick-active + li,
-    .slick-dots li.slick-active + li + li {
+    .slick-dots li.slick-active + li + li{
         display: inline-block;
     }
     
     .slick-dots li:nth-last-child(1),
     .slick-dots li:nth-last-child(2),
-    .slick-dots li:nth-last-child(3) {
+    .slick-dots li:nth-last-child(3),
+    .slick-dots li:nth-last-child(4) {
         display: inline-block;
     }
     
     .slick-dots li.slick-active ~ li:nth-last-child(1),
     .slick-dots li.slick-active ~ li:nth-last-child(2),
-    .slick-dots li.slick-active ~ li:nth-last-child(3) {
+    .slick-dots li.slick-active ~ li:nth-last-child(3),
+    .slick-dots li.slick-active ~ li:nth-last-child(4) {
         display: none;
     }
+    .slick-dots li.slick-active + li + li:nth-last-child(4),
     .slick-dots li.slick-active + li + li:nth-last-child(3),
     .slick-dots li.slick-active + li + li:nth-last-child(2),
     .slick-dots li.slick-active + li + li:nth-last-child(1),
+    .slick-dots li.slick-active + li:nth-last-child(4),
     .slick-dots li.slick-active + li:nth-last-child(3),
     .slick-dots li.slick-active + li:nth-last-child(2),
     .slick-dots li.slick-active + li:nth-last-child(1){
@@ -140,3 +180,177 @@
     }
   }
 }
+
+@media (max-width: 1440px){
+  .drafting{
+    @include margin(5rem,0rem,5rem,0rem);
+    .container{
+      position:relative;
+      .DP{
+        h1{
+          text-align: center;
+          font: normal normal normal 60px/75px Eurostile;
+          letter-spacing: 0px;
+          color: #00375C;
+          text-transform: uppercase;
+        }
+      }
+      .drafting-carousel{
+        
+        .dialog-modal{
+          width: 70%;
+          min-height: 200px;
+          position: fixed !important;
+          top: 2%;
+          left: 15%;
+          border: none !important;
+          
+          .modal-top{
+            @include margin(1rem,1rem,0rem,1rem);
+          @include flex(flex,flex-end !important,row,center);
+          }
+          .article{
+            @include margin(1rem,5rem,0rem,5rem);
+            max-width: 1000px;
+            height: 500px;
+            background: #EBF7FD 0% 0% no-repeat padding-box;
+                    }
+          h1{
+            @include margin(1rem,5rem,0rem,5rem);
+            text-align: left;
+            font: normal normal bold 26px/34px Eurostile;
+            letter-spacing: 0.52px;
+            color: #00375C;
+            text-transform: uppercase;
+          }
+          h6{
+            @include margin(0rem,5rem,2rem,5rem);
+            text-align: left;
+            font: normal normal medium 18px/30px Montserrat;
+            letter-spacing: 0.36px;
+            color: #00375C;
+          }
+        }
+        .slicky{
+          @include flex(flex,center,row,center);
+        }
+        .slick-list{
+          height: 1500px !important;
+        }
+        .drafting-container{
+          cursor: pointer;
+          @include margin(5rem,0rem,5rem,0rem);
+          .article{
+            width: 100%;
+            max-width: 413px;
+            height: 313px;
+            background: #0099DC14 0% 0% no-repeat padding-box;
+          }
+          h1{
+            min-height: 70px;
+            text-align: left;
+            font: normal normal bold 26px/34px Eurostile;
+            letter-spacing: 0.52px;
+            color: #00375C;
+            text-transform: uppercase;
+          }
+          h5{
+            text-align: left;
+            font: normal normal medium 18px/40px Montserrat;
+            letter-spacing: 0.36px;
+            color: #00375C;
+          }
+        }
+      }
+      .slick-dots{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        list-style: none;
+        padding-left: 0rem;
+        @include margin(0rem,0rem,10rem,0rem);
+        li{
+          background-color: transparent;
+          border-radius: 10%;
+          margin: 0px;
+          display: none;
+          a{
+            background-color: transparent;
+            color: #545D7A;
+            font-size: 16px !important;
+            @include padding(25px,30px,25px,30px);
+            border-radius: 20%;
+            font-size: 0; 
+            border: 1px solid #DAE1F5;
+          }
+          
+        }
+        li.slick-active{
+          a {
+            background: transparent linear-gradient(346deg, #1A99DC 0%, #04375C 100%) 0% 0% no-repeat padding-box;
+            color: white;
+          }
+        }
+      }
+      .slick-dots li.slick-active,
+      .slick-dots li.slick-active + li,
+      .slick-dots li.slick-active + li + li,
+      .slick-dots li.slick-active + li + li + li{
+          display: inline-block;
+      }
+      
+      .slick-dots li:nth-last-child(1),
+      .slick-dots li:nth-last-child(2),
+      .slick-dots li:nth-last-child(3),
+      .slick-dots li:nth-last-child(4) {
+          display: inline-block;
+      }
+      
+      .slick-dots li.slick-active ~ li:nth-last-child(1),
+      .slick-dots li.slick-active ~ li:nth-last-child(2),
+      .slick-dots li.slick-active ~ li:nth-last-child(3),
+      .slick-dots li.slick-active ~ li:nth-last-child(4) {
+          display: none;
+      }
+      .slick-dots li.slick-active + li + li + li:nth-last-child(4),
+      .slick-dots li.slick-active + li + li + li:nth-last-child(3),
+      .slick-dots li.slick-active + li + li + li:nth-last-child(2),
+      .slick-dots li.slick-active + li + li + li:nth-last-child(1),
+      .slick-dots li.slick-active + li:nth-last-child(4),
+      .slick-dots li.slick-active + li:nth-last-child(3),
+      .slick-dots li.slick-active + li:nth-last-child(2),
+      .slick-dots li.slick-active + li:nth-last-child(1){
+          display: inline-block;
+      }
+      .arrow-draft{
+        @include flex(flex,center,row,center);
+        display: none;
+        display: none;
+        .arr_back-draft{
+          position: absolute;
+          top: 78%;
+          left: 30%;
+          background-color: transparent;
+            color: #545D7A;
+            font-size: 2rem !important;
+            @include padding(25px,30px,25px,30px);
+            border-radius: 20%;
+            border: 1px solid #DAE1F5;
+          cursor: pointer;
+        }
+        .arr_next-draft{
+          position: absolute;
+          top: 78%;
+          left: 70%;
+          cursor: pointer;
+          background-color: transparent;
+            color: #545D7A;
+            font-size: 2rem !important;
+            @include padding(25px,30px,25px,30px);
+            border-radius: 20%;
+            border: 1px solid #DAE1F5;
+        }
+      }
+    }
+  }
+  }

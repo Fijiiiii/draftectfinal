@@ -5713,6 +5713,54 @@ header .text h6 {
   color: #00375C;
   text-transform: uppercase;
 }
+.drafting .container .drafting-carousel .dialog-modal {
+  width: 50%;
+  min-height: 200px;
+  position: fixed !important;
+  top: 2%;
+  left: 20%;
+  border: none !important;
+}
+.drafting .container .drafting-carousel .dialog-modal .modal-top {
+  margin-top: 1rem;
+  margin-right: 1rem;
+  margin-bottom: 0rem;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: flex-end !important;
+  flex-direction: row;
+  align-items: center;
+}
+.drafting .container .drafting-carousel .dialog-modal .article {
+  margin-top: 1rem;
+  margin-right: 5rem;
+  margin-bottom: 0rem;
+  margin-left: 5rem;
+  max-width: 1000px;
+  height: 500px;
+  background: #EBF7FD 0% 0% no-repeat padding-box;
+}
+.drafting .container .drafting-carousel .dialog-modal h1 {
+  margin-top: 1rem;
+  margin-right: 5rem;
+  margin-bottom: 0rem;
+  margin-left: 5rem;
+  text-align: left;
+  font: normal normal bold 26px/34px Eurostile;
+  letter-spacing: 0.52px;
+  color: #00375C;
+  text-transform: uppercase;
+}
+.drafting .container .drafting-carousel .dialog-modal h6 {
+  margin-top: 0rem;
+  margin-right: 5rem;
+  margin-bottom: 2rem;
+  margin-left: 5rem;
+  text-align: left;
+  font: normal normal medium 18px/30px Montserrat;
+  letter-spacing: 0.36px;
+  color: #00375C;
+}
 .drafting .container .drafting-carousel .slicky {
   display: flex;
   justify-content: center;
@@ -5723,6 +5771,7 @@ header .text h6 {
   height: 1500px !important;
 }
 .drafting .container .drafting-carousel .drafting-container {
+  cursor: pointer;
   margin-top: 5rem;
   margin-right: 0rem;
   margin-bottom: 5rem;
@@ -5788,17 +5837,21 @@ header .text h6 {
 }
 .drafting .container .slick-dots li:nth-last-child(1),
 .drafting .container .slick-dots li:nth-last-child(2),
-.drafting .container .slick-dots li:nth-last-child(3) {
+.drafting .container .slick-dots li:nth-last-child(3),
+.drafting .container .slick-dots li:nth-last-child(4) {
   display: inline-block;
 }
 .drafting .container .slick-dots li.slick-active ~ li:nth-last-child(1),
 .drafting .container .slick-dots li.slick-active ~ li:nth-last-child(2),
-.drafting .container .slick-dots li.slick-active ~ li:nth-last-child(3) {
+.drafting .container .slick-dots li.slick-active ~ li:nth-last-child(3),
+.drafting .container .slick-dots li.slick-active ~ li:nth-last-child(4) {
   display: none;
 }
+.drafting .container .slick-dots li.slick-active + li + li:nth-last-child(4),
 .drafting .container .slick-dots li.slick-active + li + li:nth-last-child(3),
 .drafting .container .slick-dots li.slick-active + li + li:nth-last-child(2),
 .drafting .container .slick-dots li.slick-active + li + li:nth-last-child(1),
+.drafting .container .slick-dots li.slick-active + li:nth-last-child(4),
 .drafting .container .slick-dots li.slick-active + li:nth-last-child(3),
 .drafting .container .slick-dots li.slick-active + li:nth-last-child(2),
 .drafting .container .slick-dots li.slick-active + li:nth-last-child(1) {
@@ -5841,6 +5894,207 @@ header .text h6 {
   border: 1px solid #DAE1F5;
 }
 
+@media (max-width: 1440px) {
+  .drafting {
+    margin-top: 5rem;
+    margin-right: 0rem;
+    margin-bottom: 5rem;
+    margin-left: 0rem;
+  }
+  .drafting .container {
+    position: relative;
+  }
+  .drafting .container .DP h1 {
+    text-align: center;
+    font: normal normal normal 60px/75px Eurostile;
+    letter-spacing: 0px;
+    color: #00375C;
+    text-transform: uppercase;
+  }
+  .drafting .container .drafting-carousel .dialog-modal {
+    width: 70%;
+    min-height: 200px;
+    position: fixed !important;
+    top: 2%;
+    left: 15%;
+    border: none !important;
+  }
+  .drafting .container .drafting-carousel .dialog-modal .modal-top {
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 0rem;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: flex-end !important;
+    flex-direction: row;
+    align-items: center;
+  }
+  .drafting .container .drafting-carousel .dialog-modal .article {
+    margin-top: 1rem;
+    margin-right: 5rem;
+    margin-bottom: 0rem;
+    margin-left: 5rem;
+    max-width: 1000px;
+    height: 500px;
+    background: #EBF7FD 0% 0% no-repeat padding-box;
+  }
+  .drafting .container .drafting-carousel .dialog-modal h1 {
+    margin-top: 1rem;
+    margin-right: 5rem;
+    margin-bottom: 0rem;
+    margin-left: 5rem;
+    text-align: left;
+    font: normal normal bold 26px/34px Eurostile;
+    letter-spacing: 0.52px;
+    color: #00375C;
+    text-transform: uppercase;
+  }
+  .drafting .container .drafting-carousel .dialog-modal h6 {
+    margin-top: 0rem;
+    margin-right: 5rem;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    text-align: left;
+    font: normal normal medium 18px/30px Montserrat;
+    letter-spacing: 0.36px;
+    color: #00375C;
+  }
+  .drafting .container .drafting-carousel .slicky {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+  .drafting .container .drafting-carousel .slick-list {
+    height: 1500px !important;
+  }
+  .drafting .container .drafting-carousel .drafting-container {
+    cursor: pointer;
+    margin-top: 5rem;
+    margin-right: 0rem;
+    margin-bottom: 5rem;
+    margin-left: 0rem;
+  }
+  .drafting .container .drafting-carousel .drafting-container .article {
+    width: 100%;
+    max-width: 413px;
+    height: 313px;
+    background: rgba(0, 153, 220, 0.0784313725) 0% 0% no-repeat padding-box;
+  }
+  .drafting .container .drafting-carousel .drafting-container h1 {
+    min-height: 70px;
+    text-align: left;
+    font: normal normal bold 26px/34px Eurostile;
+    letter-spacing: 0.52px;
+    color: #00375C;
+    text-transform: uppercase;
+  }
+  .drafting .container .drafting-carousel .drafting-container h5 {
+    text-align: left;
+    font: normal normal medium 18px/40px Montserrat;
+    letter-spacing: 0.36px;
+    color: #00375C;
+  }
+  .drafting .container .slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding-left: 0rem;
+    margin-top: 0rem;
+    margin-right: 0rem;
+    margin-bottom: 10rem;
+    margin-left: 0rem;
+  }
+  .drafting .container .slick-dots li {
+    background-color: transparent;
+    border-radius: 10%;
+    margin: 0px;
+    display: none;
+  }
+  .drafting .container .slick-dots li a {
+    background-color: transparent;
+    color: #545D7A;
+    font-size: 16px !important;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    border-radius: 20%;
+    font-size: 0;
+    border: 1px solid #DAE1F5;
+  }
+  .drafting .container .slick-dots li.slick-active a {
+    background: transparent linear-gradient(346deg, #1A99DC 0%, #04375C 100%) 0% 0% no-repeat padding-box;
+    color: white;
+  }
+  .drafting .container .slick-dots li.slick-active,
+.drafting .container .slick-dots li.slick-active + li,
+.drafting .container .slick-dots li.slick-active + li + li,
+.drafting .container .slick-dots li.slick-active + li + li + li {
+    display: inline-block;
+  }
+  .drafting .container .slick-dots li:nth-last-child(1),
+.drafting .container .slick-dots li:nth-last-child(2),
+.drafting .container .slick-dots li:nth-last-child(3),
+.drafting .container .slick-dots li:nth-last-child(4) {
+    display: inline-block;
+  }
+  .drafting .container .slick-dots li.slick-active ~ li:nth-last-child(1),
+.drafting .container .slick-dots li.slick-active ~ li:nth-last-child(2),
+.drafting .container .slick-dots li.slick-active ~ li:nth-last-child(3),
+.drafting .container .slick-dots li.slick-active ~ li:nth-last-child(4) {
+    display: none;
+  }
+  .drafting .container .slick-dots li.slick-active + li + li + li:nth-last-child(4),
+.drafting .container .slick-dots li.slick-active + li + li + li:nth-last-child(3),
+.drafting .container .slick-dots li.slick-active + li + li + li:nth-last-child(2),
+.drafting .container .slick-dots li.slick-active + li + li + li:nth-last-child(1),
+.drafting .container .slick-dots li.slick-active + li:nth-last-child(4),
+.drafting .container .slick-dots li.slick-active + li:nth-last-child(3),
+.drafting .container .slick-dots li.slick-active + li:nth-last-child(2),
+.drafting .container .slick-dots li.slick-active + li:nth-last-child(1) {
+    display: inline-block;
+  }
+  .drafting .container .arrow-draft {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    display: none;
+    display: none;
+  }
+  .drafting .container .arrow-draft .arr_back-draft {
+    position: absolute;
+    top: 78%;
+    left: 30%;
+    background-color: transparent;
+    color: #545D7A;
+    font-size: 2rem !important;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    border-radius: 20%;
+    border: 1px solid #DAE1F5;
+    cursor: pointer;
+  }
+  .drafting .container .arrow-draft .arr_next-draft {
+    position: absolute;
+    top: 78%;
+    left: 70%;
+    cursor: pointer;
+    background-color: transparent;
+    color: #545D7A;
+    font-size: 2rem !important;
+    padding-top: 25px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+    padding-left: 30px;
+    border-radius: 20%;
+    border: 1px solid #DAE1F5;
+  }
+}
 .nopadding {
   padding: 0px !important;
 }

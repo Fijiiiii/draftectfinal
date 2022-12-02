@@ -1,3 +1,17 @@
+//MODAL
+$(function(){
+const modal = document.querySelector("#modals");
+const openModal = document.querySelector(".open-button");
+const closeModal = document.querySelector(".close-button");
+
+openModal.addEventListener("click", () => {
+  modal.showModal();
+});
+
+closeModal.addEventListener("click", () => {
+  modal.close();
+});
+});
 
 $(function(){
   $('.testimonial').slick({
@@ -170,7 +184,7 @@ $(function(){
   $('.drafting-carousel').slick({
     prevArrow:'.arr_back-draft',
     nextArrow:'.arr_next-draft',
-    arrows: true,
+    arrows: false,
     dots:true,
     dotsData:true,
     centerMode: true,
