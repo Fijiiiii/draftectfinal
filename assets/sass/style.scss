@@ -1,24 +1,24 @@
 
-@import './base/reset';
-@import './base/typography';
+@import 'base/reset';
+@import 'base/typography';
 
-@import './components/color';
+@import 'components/color';
 
-@import './mixins';
+@import 'mixins';
 
-@import './layout/nav&footer';
-@import './layout/banner';
+@import 'layout/nav&footer';
+@import 'layout/banner';
 
-@import './pages/home';
-@import './pages/contact';
-@import './pages/blog';
-@import './pages/blog-2';
-@import './pages/about';
-@import './pages/project';
-@import './pages/services';
-@import './pages/reconstruction';
-@import './pages/BIM';
-@import './pages/drafting';
+@import 'pages/home';
+@import 'pages/contact';
+@import 'pages/blog';
+@import 'pages/blog-2';
+@import 'pages/about';
+@import 'pages/project';
+@import 'pages/services';
+@import 'pages/reconstruction';
+@import 'pages/BIM';
+@import 'pages/drafting';
 
 .nopadding{
   padding: 0px !important;
