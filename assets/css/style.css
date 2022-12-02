@@ -85,7 +85,7 @@ body {
   background-color: #217CA4;
   border-radius: 5%;
   width: 230px;
-  height: 330px;
+  height: 260px;
   border: none;
 }
 .navi .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -95,6 +95,7 @@ body {
   margin-bottom: 0.5rem;
   margin-left: 1rem;
   padding: 0px !important;
+  line-height: 1rem !important;
 }
 .navi .container .nav-content .collapse ul .dropdown:hover ul li a {
   padding-top: 0.5rem;
@@ -106,7 +107,7 @@ body {
   opacity: 50%;
   font-size: 16px;
   font-weight: 500;
-  line-height: -10rem !important;
+  line-height: 0rem !important;
 }
 .navi .container .nav-content .collapse ul .dropdown:hover ul li a:hover {
   color: #FFFFFF !important;
@@ -175,7 +176,7 @@ body {
   background-color: #217CA4;
   border-radius: 5%;
   width: 230px;
-  height: 330px;
+  height: 260px;
   border: none;
 }
 .navi-cont .container .nav-content .collapse ul .dropdown:hover ul li {
@@ -185,6 +186,7 @@ body {
   margin-bottom: 0.5rem;
   margin-left: 1rem;
   padding: 0px !important;
+  line-height: 1rem !important;
 }
 .navi-cont .container .nav-content .collapse ul .dropdown:hover ul li a {
   padding-top: 0.5rem;
@@ -451,53 +453,6 @@ footer .row .third-foot .foot-social img {
     font-weight: normal;
     letter-spacing: 1px;
   }
-  .navi .container .collapse ul .dropdown:hover ul::before {
-    position: absolute;
-    content: "";
-    height: 20px;
-    width: 20px;
-    background-color: #217CA4;
-    left: 10%;
-    top: -3%;
-    transform: rotate(45deg);
-    z-index: 1;
-  }
-  .navi .container .collapse ul .dropdown:hover ul {
-    margin-top: 5px;
-    display: block;
-    background-color: #217CA4;
-    border-radius: 5%;
-    border: none;
-  }
-  .navi .container .collapse ul .dropdown:hover ul li {
-    width: 200px !important;
-    margin-top: 0.5rem;
-    margin-right: 1rem;
-    margin-bottom: 0.5rem;
-    margin-left: 1rem;
-    padding: 0px !important;
-  }
-  .navi .container .collapse ul .dropdown:hover ul li a {
-    height: 100px !important;
-    width: 400px !important;
-    color: white !important;
-    opacity: 50%;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: -10px;
-  }
-  .navi .container .collapse ul .dropdown:hover ul li a:hover {
-    color: #FFFFFF !important;
-    opacity: 100%;
-  }
-  .navi .container .collapse ul .dropdown:hover ul li hr {
-    padding: 0px !important;
-    margin-top: 1rem;
-    margin-right: 0rem;
-    margin-bottom: 1rem;
-    margin-left: 0rem;
-    color: white !important;
-  }
   .navi .container .nav-link .tryings {
     background: url("../images/search-white.svg") no-repeat center center;
     background-repeat: no-repeat;
@@ -525,53 +480,6 @@ footer .row .third-foot .foot-social img {
     font-family: Eurostile;
     font-weight: normal;
     letter-spacing: 1px;
-  }
-  .navi-cont .container .collapse ul .dropdown:hover ul::before {
-    position: absolute;
-    content: "";
-    height: 20px;
-    width: 20px;
-    background-color: #217CA4;
-    left: 10%;
-    top: -3%;
-    transform: rotate(45deg);
-    z-index: 1;
-  }
-  .navi-cont .container .collapse ul .dropdown:hover ul {
-    margin-top: 5px;
-    display: block;
-    background-color: #217CA4;
-    border-radius: 5%;
-    border: none;
-  }
-  .navi-cont .container .collapse ul .dropdown:hover ul li {
-    width: 200px !important;
-    margin-top: 0.5rem;
-    margin-right: 1rem;
-    margin-bottom: 0.5rem;
-    margin-left: 1rem;
-    padding: 0px !important;
-  }
-  .navi-cont .container .collapse ul .dropdown:hover ul li a {
-    height: 100px !important;
-    width: 400px !important;
-    color: white !important;
-    opacity: 50%;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: -10px;
-  }
-  .navi-cont .container .collapse ul .dropdown:hover ul li a:hover {
-    color: #FFFFFF !important;
-    opacity: 100%;
-  }
-  .navi-cont .container .collapse ul .dropdown:hover ul li hr {
-    padding: 0px !important;
-    margin-top: 1rem;
-    margin-right: 0rem;
-    margin-bottom: 1rem;
-    margin-left: 0rem;
-    color: white !important;
   }
   .navi-cont .container .nav-link .tryings {
     background: url("../images/search-blue.svg") no-repeat center center;
@@ -5855,6 +5763,7 @@ header .text h6 {
   background-color: transparent;
   border-radius: 10%;
   margin: 0px;
+  display: none;
 }
 .drafting .container .slick-dots li a {
   background-color: transparent;
@@ -5871,6 +5780,29 @@ header .text h6 {
 .drafting .container .slick-dots li.slick-active a {
   background: transparent linear-gradient(346deg, #1A99DC 0%, #04375C 100%) 0% 0% no-repeat padding-box;
   color: white;
+}
+.drafting .container .slick-dots li.slick-active,
+.drafting .container .slick-dots li.slick-active + li,
+.drafting .container .slick-dots li.slick-active + li + li {
+  display: inline-block;
+}
+.drafting .container .slick-dots li:nth-last-child(1),
+.drafting .container .slick-dots li:nth-last-child(2),
+.drafting .container .slick-dots li:nth-last-child(3) {
+  display: inline-block;
+}
+.drafting .container .slick-dots li.slick-active ~ li:nth-last-child(1),
+.drafting .container .slick-dots li.slick-active ~ li:nth-last-child(2),
+.drafting .container .slick-dots li.slick-active ~ li:nth-last-child(3) {
+  display: none;
+}
+.drafting .container .slick-dots li.slick-active + li + li:nth-last-child(3),
+.drafting .container .slick-dots li.slick-active + li + li:nth-last-child(2),
+.drafting .container .slick-dots li.slick-active + li + li:nth-last-child(1),
+.drafting .container .slick-dots li.slick-active + li:nth-last-child(3),
+.drafting .container .slick-dots li.slick-active + li:nth-last-child(2),
+.drafting .container .slick-dots li.slick-active + li:nth-last-child(1) {
+  display: inline-block;
 }
 .drafting .container .arrow-draft {
   display: flex;

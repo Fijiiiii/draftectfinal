@@ -47,12 +47,13 @@
                 background-color:#217CA4;
                 border-radius: 5%;
                 width: 230px;
-                height: 330px;
+                height: 260px;
                 border: none;
                 li{
                   width: 200px !important;
                   @include margin(.5rem,1rem,.5rem,1rem);
                   padding: 0px !important;
+                  line-height: 1rem !important;
                   a{
                     @include padding(.5rem,1rem,.5rem,0rem);
                     width: 400px !important;
@@ -60,7 +61,7 @@
                     opacity: 50%;
                     font-size: 16px;
                     font-weight: 500;
-                    line-height: -10rem !important;
+                    line-height: 0rem !important;
                     &:hover{
                       color: $white !important;
                       opacity: 100%;
@@ -139,12 +140,13 @@
                 background-color:#217CA4;
                 border-radius: 5%;
                 width: 230px;
-                height: 330px;
+                height: 260px;
                 border: none;
                 li{
                   width: 200px !important;
                   @include margin(.5rem,1rem,.5rem,1rem);
                   padding: 0px !important;
+                  line-height: 1rem !important;
                   a{
                     @include padding(.5rem,1rem,.5rem,0rem);
                     height: 100px !important;
@@ -391,51 +393,6 @@ footer{
             letter-spacing: 1px;
             }
           }
-          .dropdown{
-            &:hover{
-              ul::before{
-                position: absolute;
-                content: '';
-                height: 20px;
-                width: 20px;
-                background-color: #217CA4;
-                left: 10%;
-                top: -3%;
-                transform: rotate(45deg);
-                z-index: 1;
-              }
-              ul{
-                margin-top: 5px;
-                display: block;
-                background-color:#217CA4;
-                border-radius: 5%;
-                border: none;
-                li{
-                  width: 200px !important;
-                  @include margin(.5rem,1rem,.5rem,1rem);
-                  padding: 0px !important;
-                  a{
-                    height: 100px !important;
-                    width: 400px !important;
-                    color: white !important;
-                    opacity: 50%;
-                    font-size: 16px;
-                    font-weight: 500;
-                    line-height: -10px;
-                    &:hover{
-                      color: $white !important;
-                      opacity: 100%;
-                    }
-                  }
-                  hr{
-                    padding: 0px !important;
-                    @include margin(1rem,0rem,1rem,0rem);
-                    color: white !important;
-                  }
-                }
-              }
-            }
-          }
         }
       }
   //trying
@@ -477,51 +434,7 @@ footer{
             letter-spacing: 1px;
             }
           }
-          .dropdown{
-            &:hover{
-              ul::before{
-                position: absolute;
-                content: '';
-                height: 20px;
-                width: 20px;
-                background-color: #217CA4;
-                left: 10%;
-                top: -3%;
-                transform: rotate(45deg);
-                z-index: 1;
-              }
-              ul{
-                margin-top: 5px;
-                display: block;
-                background-color:#217CA4;
-                border-radius: 5%;
-                border: none;
-                li{
-                  width: 200px !important;
-                  @include margin(.5rem,1rem,.5rem,1rem);
-                  padding: 0px !important;
-                  a{
-                    height: 100px !important;
-                    width: 400px !important;
-                    color: white !important;
-                    opacity: 50%;
-                    font-size: 16px;
-                    font-weight: 500;
-                    line-height: -10px;
-                    &:hover{
-                      color: $white !important;
-                      opacity: 100%;
-                    }
-                  }
-                  hr{
-                    padding: 0px !important;
-                    @include margin(1rem,0rem,1rem,0rem);
-                    color: white !important;
-                  }
-                }
-              }
-            }
-          }
+
         }
       }
   //trying

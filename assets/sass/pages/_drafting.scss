@@ -67,6 +67,7 @@
         background-color: transparent;
         border-radius: 10%;
         margin: 0px;
+        display: none;
         a{
           background-color: transparent;
           color: #545D7A;
@@ -84,6 +85,31 @@
           color: white;
         }
       }
+    }
+    .slick-dots li.slick-active,
+    .slick-dots li.slick-active + li,
+    .slick-dots li.slick-active + li + li {
+        display: inline-block;
+    }
+    
+    .slick-dots li:nth-last-child(1),
+    .slick-dots li:nth-last-child(2),
+    .slick-dots li:nth-last-child(3) {
+        display: inline-block;
+    }
+    
+    .slick-dots li.slick-active ~ li:nth-last-child(1),
+    .slick-dots li.slick-active ~ li:nth-last-child(2),
+    .slick-dots li.slick-active ~ li:nth-last-child(3) {
+        display: none;
+    }
+    .slick-dots li.slick-active + li + li:nth-last-child(3),
+    .slick-dots li.slick-active + li + li:nth-last-child(2),
+    .slick-dots li.slick-active + li + li:nth-last-child(1),
+    .slick-dots li.slick-active + li:nth-last-child(3),
+    .slick-dots li.slick-active + li:nth-last-child(2),
+    .slick-dots li.slick-active + li:nth-last-child(1){
+        display: inline-block;
     }
     .arrow-draft{
       @include flex(flex,center,row,center);
