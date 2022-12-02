@@ -5063,7 +5063,7 @@ header .text h6 {
 }
 .Project-page .container .project-container .project-image {
   width: 100%;
-  max-width: 563px;
+  opacity: 40%;
 }
 .Project-page .container .project-container .project-head {
   position: absolute;
@@ -5075,7 +5075,7 @@ header .text h6 {
   text-align: left;
   font: normal normal bold 35px/100px Eurostile;
   letter-spacing: 1.05px;
-  color: #FFFFFF;
+  color: #00375C;
   text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
   text-transform: uppercase;
 }
@@ -5116,6 +5116,62 @@ header .text h6 {
   font: normal normal bold 28px/36px Eurostile;
   letter-spacing: 0.56px;
   color: #00375C;
+}
+.Project-page .container .project-container:hover .project-image {
+  width: 100%;
+  opacity: 100%;
+}
+.Project-page .container .project-container:hover .project-head {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 5%;
+  max-width: 406px;
+  min-height: 46px;
+  text-align: left;
+  font: normal normal bold 35px/100px Eurostile;
+  letter-spacing: 1.05px;
+  color: #FFFFFF;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  text-transform: uppercase;
+}
+.Project-page .container .project-container:hover .project-head2 {
+  position: absolute;
+  z-index: 2;
+  top: 10%;
+  left: 5%;
+  max-width: 350px;
+  min-height: 78px;
+  text-align: left;
+  font: normal normal bold 35px/32px Eurostile;
+  letter-spacing: 1.05px;
+  color: white;
+  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  text-transform: uppercase;
+}
+.Project-page .container .project-container:hover h6 {
+  position: absolute;
+  z-index: 2;
+  top: 65%;
+  left: 5%;
+  max-width: 330px;
+  min-height: 111px;
+  text-align: left;
+  font: normal normal medium 20px/30px Montserrat;
+  letter-spacing: 0.4px;
+  color: white;
+}
+.Project-page .container .project-container:hover h5 {
+  position: absolute;
+  z-index: 2;
+  top: 85%;
+  left: 5%;
+  max-width: 157px;
+  min-height: 36px;
+  text-align: left;
+  font: normal normal bold 28px/36px Eurostile;
+  letter-spacing: 0.56px;
+  color: white;
 }
 
 .projects-mobile {
