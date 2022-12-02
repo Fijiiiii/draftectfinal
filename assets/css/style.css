@@ -32,11 +32,11 @@ body {
 }
 @font-face {
   font-family: Eurostile;
-  src: url(/assets/fonts/eurostile-font/EuroStyleNormal.ttf);
+  src: url(../fonts/eurostile-font/EuroStyleNormal.ttf);
 }
 @font-face {
   font-family: Eurostile-bold;
-  src: url(/assets/fonts/eurostile-font/EurostileBold.ttf);
+  src: url(../fonts/eurostile-font/EurostileBold.ttf);
 }
 /*N A V B A R*/
 .navi {
@@ -44,7 +44,7 @@ body {
   padding-top: 0rem !important;
 }
 .navi .container a .logo-navi {
-  background-image: url("/assets/images/logo-white.svg");
+  background-image: url("./assets/images/logo-white.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 300px;
@@ -135,7 +135,7 @@ body {
   padding-top: 0rem !important;
 }
 .navi-cont .container a .logo-navi {
-  background-image: url("/assets/images/logo-blue.svg");
+  background-image: url("./assets/images/logo-blue.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 300px;
@@ -3190,7 +3190,7 @@ header .text h6 {
 }
 
 .home-test {
-  background-image: url("/assets/images/head.webp");
+  background-image: url("../images/head.webp");
   background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
