@@ -4137,8 +4137,6 @@ header .text h6 {
   margin-right: 0rem;
   margin-bottom: 2rem;
   margin-left: 0rem;
-  max-width: 400px;
-  min-height: 73px;
   text-align: left;
   font: normal normal normal 60px/75px Eurostile;
   letter-spacing: 0px;
@@ -5115,84 +5113,52 @@ header .text h6 {
 .Project-page .container .project-container .project-image {
   width: 100%;
   opacity: 40%;
-}
-.Project-page .container .project-container .project-head {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  left: 5%;
-  max-width: 406px;
-  min-height: 46px;
-  text-align: left;
-  font: normal normal bold 35px/100px Eurostile;
-  letter-spacing: 1.05px;
-  color: #00375C;
-  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
-  text-transform: uppercase;
+  transition: linear 0.5s;
 }
 .Project-page .container .project-container .project-head2 {
   position: absolute;
   z-index: 2;
   top: 10%;
   left: 5%;
-  max-width: 350px;
-  min-height: 78px;
   text-align: left;
   font: normal normal bold 35px/32px Eurostile;
   letter-spacing: 1.05px;
   color: #00375C;
   text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
   text-transform: uppercase;
+  transition: linear 0.5s;
 }
 .Project-page .container .project-container h6 {
   position: absolute;
   z-index: 2;
   top: 65%;
   left: 5%;
-  max-width: 330px;
-  min-height: 111px;
   text-align: left;
   font: normal normal medium 20px/30px Montserrat;
   letter-spacing: 0.4px;
   color: #00375C;
+  transition: linear 0.5s;
 }
 .Project-page .container .project-container h5 {
   position: absolute;
   z-index: 2;
   top: 85%;
   left: 5%;
-  max-width: 157px;
-  min-height: 36px;
   text-align: left;
   font: normal normal bold 28px/36px Eurostile;
   letter-spacing: 0.56px;
   color: #00375C;
+  transition: linear 0.5s;
 }
 .Project-page .container .project-container:hover .project-image {
   width: 100%;
   opacity: 100%;
-}
-.Project-page .container .project-container:hover .project-head {
-  position: absolute;
-  z-index: 2;
-  top: 0;
-  left: 5%;
-  max-width: 406px;
-  min-height: 46px;
-  text-align: left;
-  font: normal normal bold 35px/100px Eurostile;
-  letter-spacing: 1.05px;
-  color: #FFFFFF;
-  text-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
-  text-transform: uppercase;
 }
 .Project-page .container .project-container:hover .project-head2 {
   position: absolute;
   z-index: 2;
   top: 10%;
   left: 5%;
-  max-width: 350px;
-  min-height: 78px;
   text-align: left;
   font: normal normal bold 35px/32px Eurostile;
   letter-spacing: 1.05px;
@@ -5205,8 +5171,6 @@ header .text h6 {
   z-index: 2;
   top: 65%;
   left: 5%;
-  max-width: 330px;
-  min-height: 111px;
   text-align: left;
   font: normal normal medium 20px/30px Montserrat;
   letter-spacing: 0.4px;
@@ -5217,8 +5181,6 @@ header .text h6 {
   z-index: 2;
   top: 85%;
   left: 5%;
-  max-width: 157px;
-  min-height: 36px;
   text-align: left;
   font: normal normal bold 28px/36px Eurostile;
   letter-spacing: 0.56px;
