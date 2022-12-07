@@ -234,6 +234,24 @@
     }
   }
 }
+/* S E A R C H*/
+.container{
+  .modal{
+    .modal-dialog{
+      .modal-content{
+        .modal-header{
+          border-bottom: none;
+        }
+        .modal-body{
+          .search-pop-up{
+            height: 10rem;
+            @include flex(flex,center,column,center);
+          }
+        }
+      }
+    }
+  }
+}
 /*F O O T E R*/
 footer{
   background-color: $white2;

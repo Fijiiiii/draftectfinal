@@ -59,7 +59,7 @@
             </li>
           </ul>
         </div>
-        <a href="#instructors" class="nav-link">
+        <a href="#instructors" class="nav-link" data-bs-toggle="modal" data-bs-target="#myModal">
           <!--<span class="fa fa-search dis-none-full dis-768"></span>-->
           <!--<img src="images/search-white.svg" alt="" class="dis-none-425 d-none">-->
           <div class="tryings"></div>
@@ -67,6 +67,23 @@
       </div>
     </div>
   </nav>
+  <!--Search Popup-->
+  <div class="container">
+    <div class="modal" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="search-pop-up">
+                      <img src="./assets/images/search-blue.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </div>
   <!--head-->
   <header class="outer-container">
     <div class="video-container">
