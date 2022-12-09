@@ -11,12 +11,14 @@
           .DTD-pop-up{
             @include flex(flex,center,column,center);
             .DTD-pop-up-body{
+              @include margin(1rem,4rem,2rem,4rem);
               .blue-overlay{
                 max-width: 1050px;
                 min-height: 300px;
                 background: #EBF7FD 0% 0% no-repeat padding-box;
               }
               h1{
+                @include margin(2rem,0rem,1rem,0rem);
                 text-align: left;
                 font: normal normal bold 26px/34px Eurostile;
                 letter-spacing: 0.52px;

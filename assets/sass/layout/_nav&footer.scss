@@ -30,6 +30,9 @@
             &:hover{
               opacity: 100%;
             }
+            &:visited, &:focus, &:active{ 
+              opacity: 100% !important;
+            }
             }
           }
           .dropdown{
